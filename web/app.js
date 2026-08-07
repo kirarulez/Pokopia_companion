@@ -130,7 +130,8 @@
       html += '<div class="card"><h2>' + esc(a.name) + ' <span class="badge">' + esc(a.nameIt) + '</span>';
       if (repo.unlocked) html += ' <span class="badge v">sbloccata</span>';
       html += '</h2>';
-      html += '<p class="muted">' + esc(a.kantoBase) + ' · Sblocco: ' + esc(a.unlock.rank ? a.unlock.rank + ' Rank' : 'dall\'inizio') + '</p>';
+      var unlockTxt = [a.unlock.rank ? a.unlock.rank + ' Rank' : null, a.unlock.note].filter(Boolean).join(' — ') || 'dall\'inizio';
+      html += '<p class="muted">' + esc(a.kantoBase) + ' · Sblocco: ' + esc(unlockTxt) + '</p>';
       html += '<h3>🎯 Main quest: ' + esc(a.mainQuest.title) + '</h3>';
       html += '<ul>' + a.mainQuest.requirements.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul>';
       html += '<p class="muted">Ricompensa: ' + esc(a.mainQuest.reward) + '</p>';

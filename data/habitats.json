@@ -1,6 +1,6 @@
 {
-  "_schema": "Habitat Dex di Pokopia — nel gioco ce ne sono 213 documentati. Questo è il set iniziale curato: si estende man mano con gli screenshot delle tue scoperte (tracce dei Pokémon). 'materials': null = ricetta da scoprire. 'verified': false = dato da confermare in gioco.",
-  "totalInGame": 213,
+  "_schema": "Habitat Dex di Pokopia — 213 nel gioco base + 36 del DLC Fondale Bolleblub (numerati D1-001…D1-036, categoria 'fondale'). Questo è il set curato: si estende man mano con gli screenshot delle tue scoperte (tracce dei Pokémon). 'materials': null = ricetta da scoprire. 'verified': false = dato da confermare in gioco.",
+  "totalInGame": 249,
   "habitats": [
     {
       "id": "tall-grass",
@@ -138,6 +138,92 @@
       "areaHint": null,
       "priority": 6,
       "notes": "Molti habitat avanzati usano requisiti jolly tipo 'Seat (any)' o 'Bed (any)': qualsiasi oggetto della categoria vale.",
+      "verified": false
+    },
+    {
+      "id": "seabed-tall-grass",
+      "name": "Seabed Tall Grass",
+      "nameIt": "Erba Alta del Fondale",
+      "category": "fondale",
+      "materials": null,
+      "attracts": ["Mudkip", "Pokémon comuni del fondale"],
+      "areaHint": "bubbly-basin",
+      "priority": 3,
+      "notes": "DLC Fondale Bolleblub. Richiede Seabed Tall Grass (quantità da confermare): è il materiale più riusato del set — serve anche per gli habitat D1-002 e D1-008. Mudkip sblocca bolle e Frullatore.",
+      "verified": false
+    },
+    {
+      "id": "fluffy-relaxation",
+      "name": "Fluffy Relaxation",
+      "nameIt": "Relax Soffice",
+      "category": "fondale",
+      "materials": null,
+      "attracts": ["Mudkip"],
+      "areaHint": "bubbly-basin",
+      "priority": 4,
+      "notes": "DLC. Alternativa alla Seabed Tall Grass per attirare Mudkip.",
+      "verified": false
+    },
+    {
+      "id": "coral-swaying-flower-field",
+      "name": "Coral Swaying Flower Field",
+      "nameIt": "Campo Fiorito tra i Coralli",
+      "category": "fondale",
+      "materials": [
+        { "item": "Colorful Coral", "qty": 1 },
+        { "item": "Seafloor Flowers", "qty": 4 }
+      ],
+      "attracts": ["Mareanie"],
+      "areaHint": "bubbly-basin",
+      "priority": 4,
+      "notes": "DLC Fondale Bolleblub.",
+      "verified": false
+    },
+    {
+      "id": "seaweed-netting",
+      "name": "Seaweed & Netting",
+      "nameIt": "Alghe e Rete",
+      "category": "fondale",
+      "materials": null,
+      "attracts": ["Carvanha"],
+      "areaHint": "bubbly-basin",
+      "priority": 4,
+      "notes": "DLC. Richiede Lush Seaweed + Netting: la Netting si crafta con Vine Rope e Twine. Carvanha taglia le angurie a fette.",
+      "verified": false
+    },
+    {
+      "id": "chimney-rocks-dig-site",
+      "name": "Chimney Rocks Dig Site",
+      "nameIt": "Sito di Scavo dei Camini Rocciosi",
+      "category": "fondale",
+      "materials": [
+        { "item": "Chimney Rocks", "qty": 1, "note": "quantità da confermare" },
+        { "item": "Wheelbarrow", "qty": 1 },
+        { "item": "Excavation Tools", "qty": 1 },
+        { "item": "Traffic Cone", "qty": 1 }
+      ],
+      "attracts": ["Sharpedo"],
+      "areaHint": "bubbly-basin",
+      "priority": 5,
+      "notes": "DLC. Gli oggetti si trovano nella piazza della città sommersa.",
+      "verified": false
+    },
+    {
+      "id": "mermaids-gym",
+      "name": "Mermaid's Gym",
+      "nameIt": "Palestra della Sirena",
+      "category": "fondale",
+      "materials": [
+        { "item": "Pedestal", "qty": 6 },
+        { "item": "Decorative Great Ball", "qty": 1 },
+        { "item": "Decorative Heal Ball", "qty": 1 },
+        { "item": "Decorative Dive Ball", "qty": 1 },
+        { "item": "Decorative Net Ball", "qty": 1 }
+      ],
+      "attracts": ["Starmie"],
+      "areaHint": "bubbly-basin",
+      "priority": 6,
+      "notes": "DLC. Uno degli habitat più elaborati del set: vanno recuperate le 4 Poké Ball decorative.",
       "verified": false
     }
   ]

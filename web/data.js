@@ -265,6 +265,120 @@ window.POKOPIA = {
         ]
       },
       {
+        "id": "bubbly-basin",
+        "name": "Bubbly Basin",
+        "nameIt": "Fondale Bolleblub",
+        "kantoBase": "Città sottomarina semi-sommersa — nuova città del Pass di espansione Parte 1 (DLC, 5 agosto 2026)",
+        "unlock": {
+          "rank": null,
+          "note": "DLC 'Pass di espansione — Parte 1' + aggiornamento gratuito 2.0.0. Servono Jump (Magikarp), Surf (Lapras) e Dive (Manaphy); poi Popplio, davanti al Pokémon Center di Bleak Beach, indica il cancello sottomarino a OVEST"
+        },
+        "mainQuest": {
+          "title": "Riporta in vita la città sommersa con Popplio e Corsola",
+          "requirements": [
+            "Impara Surf da Lapras: compare con la richiesta di Piplup attiva e chiede di ripulire 80 tile di fango",
+            "Impara Dive da Manaphy: isola a nord-ovest indicata da Tangrowth, portagli 5 Seaweed",
+            "Parla con Popplio al Pokémon Center di Bleak Beach e apri il cancello sottomarino a ovest",
+            "Completa la catena di richieste di Corsola (bolle di Mudkip → angurie con Corphish → Carvanha)",
+            "Porta il Fondale a Environment Level 3 e avvia la richiesta del Sea Temple (Tempio del Mare)"
+          ],
+          "reward": "36 nuovi habitat, 50 nuovi Pokémon esclusivi, blocchi galleggianti, arredi e costumi marini"
+        },
+        "npcs": [
+          {
+            "name": "Popplio",
+            "role": "Guida del DLC: ti registra nel Pokédex e indica il cancello sottomarino"
+          },
+          {
+            "name": "Manaphy",
+            "role": "Insegna Dive — svenuto sull'isola a nord-ovest di Bleak Beach (porta 5 Seaweed)"
+          },
+          {
+            "name": "Corsola",
+            "role": "Quest giver principale della catena del Fondale"
+          },
+          {
+            "name": "Mudkip",
+            "role": "Spara bolle (cura piante e angurie) — sblocca il Frullatore con la quest 'Smoothie Making'"
+          },
+          {
+            "name": "Corphish",
+            "role": "Avvia la coltivazione delle angurie"
+          },
+          {
+            "name": "Carvanha",
+            "role": "Taglia le angurie a fette — attirato dall'habitat con alghe e Netting"
+          },
+          {
+            "name": "Sharpedo",
+            "role": "Attirato dal Chimney Rocks Dig Site (materiali nella piazza della città)"
+          }
+        ],
+        "loot": [
+          {
+            "item": "Seabed Tall Grass (Erba Alta del Fondale)",
+            "where": "Fondali dell'area",
+            "method": "Raccolta — il materiale più riusato dagli habitat del DLC",
+            "verified": false
+          },
+          {
+            "item": "Seafloor Flowers (Fiori del Fondale)",
+            "where": "Fondali dell'area",
+            "method": "Raccolta",
+            "verified": false
+          },
+          {
+            "item": "Lush Seaweed (Alga Rigogliosa)",
+            "where": "Zone di alghe",
+            "method": "Raccolta",
+            "verified": false
+          },
+          {
+            "item": "Colorful Coral (Corallo Colorato)",
+            "where": "Barriere coralline",
+            "method": "Raccolta",
+            "verified": false
+          },
+          {
+            "item": "Sea Grape (Uva di Mare)",
+            "where": "Fondali dell'area",
+            "method": "Raccolta — ingrediente smoothie",
+            "verified": false
+          },
+          {
+            "item": "Watermelon (Anguria)",
+            "where": "Coltivazione con Corphish + bolle di Mudkip",
+            "method": "Farming — Carvanha le taglia a fette per la cucina",
+            "verified": true
+          },
+          {
+            "item": "Buoyant Blocks (Blocchi Galleggianti)",
+            "where": "Materiale da costruzione esclusivo del DLC",
+            "method": "Crafting/progressione — fluttuano a quote diverse per costruzioni 3D subacquee",
+            "verified": true
+          },
+          {
+            "item": "Bottled Ship (Veliero in Bottiglia)",
+            "where": "Da trovare/craftare",
+            "method": "Serve per più habitat del DLC",
+            "verified": false
+          },
+          {
+            "item": "Decorative Poké Balls (Great/Heal/Dive/Net)",
+            "where": "Da trovare/craftare nell'area",
+            "method": "Servono per il Mermaid's Gym (Starmie)",
+            "verified": false
+          }
+        ],
+        "tips": [
+          "Prima di entrare conviene chiudere la main quest di Bleak Beach: la catena Lapras→Manaphy si aggancia a quelle richieste.",
+          "Nuovo sistema di elettricità subacquea e macchine sparabolle per pulire il fango: cerca i Pokémon con le specialità giuste.",
+          "Gli smoothie (base 2 fette di anguria) potenziano Surf e Dive: sblocca presto il Frullatore con Mudkip.",
+          "Con i Buoyant Blocks puoi costruire strutture sospese a diverse altezze: sfrutta la terza dimensione.",
+          "La 2.0.0 aggiunge il deposito condiviso tra le città (140 slot): piazza un contenitore anche qui."
+        ]
+      },
+      {
         "id": "palette-town",
         "name": "Palette Town",
         "nameIt": "Palette Town (sandbox)",
@@ -290,8 +404,8 @@ window.POKOPIA = {
     ]
   },
   "habitats": {
-    "_schema": "Habitat Dex di Pokopia — nel gioco ce ne sono 213 documentati. Questo è il set iniziale curato: si estende man mano con gli screenshot delle tue scoperte (tracce dei Pokémon). 'materials': null = ricetta da scoprire. 'verified': false = dato da confermare in gioco.",
-    "totalInGame": 213,
+    "_schema": "Habitat Dex di Pokopia — 213 nel gioco base + 36 del DLC Fondale Bolleblub (numerati D1-001…D1-036, categoria 'fondale'). Questo è il set curato: si estende man mano con gli screenshot delle tue scoperte (tracce dei Pokémon). 'materials': null = ricetta da scoprire. 'verified': false = dato da confermare in gioco.",
+    "totalInGame": 249,
     "habitats": [
       {
         "id": "tall-grass",
@@ -498,6 +612,139 @@ window.POKOPIA = {
         "priority": 6,
         "notes": "Molti habitat avanzati usano requisiti jolly tipo 'Seat (any)' o 'Bed (any)': qualsiasi oggetto della categoria vale.",
         "verified": false
+      },
+      {
+        "id": "seabed-tall-grass",
+        "name": "Seabed Tall Grass",
+        "nameIt": "Erba Alta del Fondale",
+        "category": "fondale",
+        "materials": null,
+        "attracts": [
+          "Mudkip",
+          "Pokémon comuni del fondale"
+        ],
+        "areaHint": "bubbly-basin",
+        "priority": 3,
+        "notes": "DLC Fondale Bolleblub. Richiede Seabed Tall Grass (quantità da confermare): è il materiale più riusato del set — serve anche per gli habitat D1-002 e D1-008. Mudkip sblocca bolle e Frullatore.",
+        "verified": false
+      },
+      {
+        "id": "fluffy-relaxation",
+        "name": "Fluffy Relaxation",
+        "nameIt": "Relax Soffice",
+        "category": "fondale",
+        "materials": null,
+        "attracts": [
+          "Mudkip"
+        ],
+        "areaHint": "bubbly-basin",
+        "priority": 4,
+        "notes": "DLC. Alternativa alla Seabed Tall Grass per attirare Mudkip.",
+        "verified": false
+      },
+      {
+        "id": "coral-swaying-flower-field",
+        "name": "Coral Swaying Flower Field",
+        "nameIt": "Campo Fiorito tra i Coralli",
+        "category": "fondale",
+        "materials": [
+          {
+            "item": "Colorful Coral",
+            "qty": 1
+          },
+          {
+            "item": "Seafloor Flowers",
+            "qty": 4
+          }
+        ],
+        "attracts": [
+          "Mareanie"
+        ],
+        "areaHint": "bubbly-basin",
+        "priority": 4,
+        "notes": "DLC Fondale Bolleblub.",
+        "verified": false
+      },
+      {
+        "id": "seaweed-netting",
+        "name": "Seaweed & Netting",
+        "nameIt": "Alghe e Rete",
+        "category": "fondale",
+        "materials": null,
+        "attracts": [
+          "Carvanha"
+        ],
+        "areaHint": "bubbly-basin",
+        "priority": 4,
+        "notes": "DLC. Richiede Lush Seaweed + Netting: la Netting si crafta con Vine Rope e Twine. Carvanha taglia le angurie a fette.",
+        "verified": false
+      },
+      {
+        "id": "chimney-rocks-dig-site",
+        "name": "Chimney Rocks Dig Site",
+        "nameIt": "Sito di Scavo dei Camini Rocciosi",
+        "category": "fondale",
+        "materials": [
+          {
+            "item": "Chimney Rocks",
+            "qty": 1,
+            "note": "quantità da confermare"
+          },
+          {
+            "item": "Wheelbarrow",
+            "qty": 1
+          },
+          {
+            "item": "Excavation Tools",
+            "qty": 1
+          },
+          {
+            "item": "Traffic Cone",
+            "qty": 1
+          }
+        ],
+        "attracts": [
+          "Sharpedo"
+        ],
+        "areaHint": "bubbly-basin",
+        "priority": 5,
+        "notes": "DLC. Gli oggetti si trovano nella piazza della città sommersa.",
+        "verified": false
+      },
+      {
+        "id": "mermaids-gym",
+        "name": "Mermaid's Gym",
+        "nameIt": "Palestra della Sirena",
+        "category": "fondale",
+        "materials": [
+          {
+            "item": "Pedestal",
+            "qty": 6
+          },
+          {
+            "item": "Decorative Great Ball",
+            "qty": 1
+          },
+          {
+            "item": "Decorative Heal Ball",
+            "qty": 1
+          },
+          {
+            "item": "Decorative Dive Ball",
+            "qty": 1
+          },
+          {
+            "item": "Decorative Net Ball",
+            "qty": 1
+          }
+        ],
+        "attracts": [
+          "Starmie"
+        ],
+        "areaHint": "bubbly-basin",
+        "priority": 6,
+        "notes": "DLC. Uno degli habitat più elaborati del set: vanno recuperate le 4 Poké Ball decorative.",
+        "verified": false
       }
     ]
   },
@@ -507,7 +754,8 @@ window.POKOPIA = {
       "Il farming si sblocca imparando Rototiller da Drilbur (letto del fiume a est nella Withered Wasteland).",
       "Ciclo: ara il terreno con Rototiller → pianta i semi → innaffia con Water Gun → raccogli.",
       "I raccolti servono per la cucina e per gli habitat 'orto' (vegetable field).",
-      "Fertilizzante e sprinkler ottimizzano le farm avanzate (setup end-game)."
+      "Fertilizzante e sprinkler ottimizzano le farm avanzate (setup end-game).",
+      "Nel Fondale Bolleblub (DLC) si coltiva sott'acqua: le piante crescono con le bolle dei Pokémon con specialità Acqua (es. Mudkip)."
     ],
     "crops": [
       {
@@ -582,6 +830,26 @@ window.POKOPIA = {
           "Ricette/habitat acquatici"
         ],
         "verified": false
+      },
+      {
+        "id": "watermelon",
+        "name": "Watermelon",
+        "nameIt": "Anguria",
+        "unlock": "Fondale Bolleblub (DLC): parla con Corphish per avviare la coltivazione",
+        "seeds": {
+          "source": "Catena di richieste di Corphish nel Fondale",
+          "cost": "—"
+        },
+        "needs": [
+          "Bolle di Mudkip (specialità Acqua) sulle piantine",
+          "Corphish per farle maturare",
+          "Carvanha per tagliarle a fette"
+        ],
+        "usedFor": [
+          "Watermelon Slices: base di tutti e 6 gli smoothie del DLC",
+          "Le 10 nuove ricette del Fondale"
+        ],
+        "verified": false
       }
     ],
     "cookingStations": [
@@ -620,13 +888,24 @@ window.POKOPIA = {
         "baseIngredient": "Beans (Fagioli)",
         "requires": "Padella posizionata su un fornello",
         "verified": true
+      },
+      {
+        "id": "blender",
+        "name": "Blender",
+        "nameIt": "Frullatore (DLC)",
+        "makes": "Smoothie — potenziano Surf e Dive",
+        "baseIngredient": "Watermelon Slices (2 fette di anguria)",
+        "requires": "Fondale Bolleblub: sblocca Mudkip, arriva alla quest 'Smoothie Making' e crafta il Frullatore con 2 Pokémetal",
+        "verified": false
       }
     ],
     "cookingUses": [
       "Ripristino PP: il cibo è la risorsa pratica per chi usa spesso le mosse (esplorazione, costruzione, raccolta).",
       "Comfort dei Pokémon: dai da mangiare per alzare il Comfort Level.",
       "Preferenze di gusto: ogni Pokémon ha sapori preferiti — il piatto giusto dà più comfort.",
-      "Ingredienti comuni: bacche, raccolti, funghi e materiali naturali trovati esplorando."
+      "Ingredienti comuni: bacche, raccolti, funghi e materiali naturali trovati esplorando.",
+      "DLC Fondale Bolleblub: 10 nuove ricette — 6 smoothie (base 2 fette di anguria) + insalata, zuppa, pane e hamburger steak marini.",
+      "Smoothie noti: Anguria (3 fette, Neutro), Leppa (2 fette + 1 baccaleppa, Dolce), Uva di Mare (2 fette + 1 Sea Grape, Secco), Soda Rinfrescante (1 fetta + 1 baccacedro + 1 Soda Pop, Aspro), Parfait al Caffè (1 fetta + 1 Moomoo Milk Coffee + 1 Simple Bread, Amaro)."
     ]
   },
   "moves": {
@@ -686,9 +965,36 @@ window.POKOPIA = {
         "howTo": "Si impara da Dragonite a Sparkling Skylands",
         "use": "Plana tra dirupi e isole fluttuanti",
         "verified": true
+      },
+      {
+        "id": "jump",
+        "name": "Jump",
+        "nameIt": "Salto",
+        "teacher": "Magikarp",
+        "howTo": "Si impara da Magikarp — prerequisito della catena che porta al Fondale Bolleblub",
+        "use": "Salta ostacoli e dislivelli",
+        "verified": false
+      },
+      {
+        "id": "surf",
+        "name": "Surf",
+        "nameIt": "Surf",
+        "teacher": "Lapras",
+        "howTo": "Lapras compare a Bleak Beach con la richiesta di Piplup attiva: ripulisci 80 tile di fango e riparlagli",
+        "use": "Nuota veloce in superficie. Con la 2.0.0 è potenziato: più velocità e rompe i blocchi. Gli smoothie lo potenziano ulteriormente",
+        "verified": false
+      },
+      {
+        "id": "dive",
+        "name": "Dive",
+        "nameIt": "Sub",
+        "teacher": "Manaphy",
+        "howTo": "Aggiunto con l'update gratuito 2.0.0: dopo Surf, Tangrowth indica un'isola a nord-ovest — Manaphy chiede 5 Seaweed (abbondanti a Bleak Beach)",
+        "use": "Respira e costruisci sott'acqua, interagisci coi Pokémon marini. Indispensabile per il cancello del Fondale Bolleblub",
+        "verified": false
       }
     ],
-    "note": "Mancano ~8 mosse al censimento: si aggiungono man mano che le sblocchi (screenshot del menu mosse)."
+    "note": "Censimento parziale (~5 mosse mancanti): si aggiungono man mano che le sblocchi (screenshot del menu mosse). Dive è arrivato con l'update gratuito 2.0.0 — il totale è da riconfermare."
   },
   "economy": {
     "_schema": "Economia di Pokopia: Life Coins, PC Shop, loop giornaliero.",
@@ -713,6 +1019,11 @@ window.POKOPIA = {
         "method": "Alzare l'Environment Level",
         "note": "Sblocca Challenge aggiuntive (comfort, amicizie, case, richieste)",
         "verified": true
+      },
+      {
+        "method": "Valutazione Lost Relics",
+        "note": "Con l'update 2.0.0 si valutano in lotti fino a 10 alla volta: niente più dialoghi ripetuti",
+        "verified": false
       }
     ],
     "pcShop": {
@@ -743,7 +1054,7 @@ window.POKOPIA = {
       ]
     },
     "buildings": {
-      "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale.",
+      "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale. Update 2.0.0: deposito CONDIVISO tra le città (fino a 140 oggetti) — basta piazzare un contenitore in ogni regione.",
       "verified": true
     },
     "dailyLoop": [
@@ -781,6 +1092,11 @@ window.POKOPIA = {
         "id": "p5",
         "title": "Fase 5 — Completamento e creatività",
         "goal": "Habitat Dex, Pokédex e Palette Town"
+      },
+      {
+        "id": "p6",
+        "title": "Fase 6 — Sotto il mare (Fondale Bolleblub, DLC)",
+        "goal": "Pass di espansione Parte 1: Surf+Dive, la città sommersa a Environment Level 3 e i 36 habitat subacquei"
       }
     ],
     "steps": [
@@ -1261,8 +1577,8 @@ window.POKOPIA = {
         "prereqs": [
           "ww-12"
         ],
-        "title": "Habitat Dex: scopri i 213 habitat",
-        "detail": "Segui le tracce dei Pokémon, sperimenta combinazioni di materiali e spunta il catalogo nella tab Habitat."
+        "title": "Habitat Dex: scopri i 213 habitat base (+36 col DLC)",
+        "detail": "Segui le tracce dei Pokémon, sperimenta combinazioni di materiali e spunta il catalogo nella tab Habitat. Il Fondale Bolleblub aggiunge gli habitat D1-001…D1-036."
       },
       {
         "id": "comp-02",
@@ -1315,6 +1631,205 @@ window.POKOPIA = {
         ],
         "title": "Cloud Islands: co-op fino a 4 giocatori",
         "detail": "La zona multiplayer condivisa per costruire con gli amici."
+      },
+      {
+        "id": "db-01",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "quest"
+        ],
+        "prereqs": [
+          "ww-12"
+        ],
+        "title": "Installa l'update 2.0.0 e il Pass di espansione — Parte 1",
+        "detail": "L'aggiornamento gratuito 2.0.0 porta Dive, Surf potenziato e il deposito condiviso; il DLC a pagamento (5 agosto 2026) sblocca il Fondale Bolleblub."
+      },
+      {
+        "id": "db-02",
+        "phase": "p6",
+        "area": "bleak-beach",
+        "tags": [
+          "mossa"
+        ],
+        "prereqs": [
+          "db-01",
+          "bb-02"
+        ],
+        "title": "Fai comparire Lapras e impara Surf",
+        "detail": "Con la richiesta di Piplup attiva, Lapras compare a Bleak Beach: ripulisci 80 tile di fango e riparlagli per imparare Surf."
+      },
+      {
+        "id": "db-03",
+        "phase": "p6",
+        "area": "bleak-beach",
+        "tags": [
+          "mossa"
+        ],
+        "prereqs": [
+          "db-02"
+        ],
+        "title": "Aiuta Manaphy sull'isola a nord-ovest e impara Dive",
+        "detail": "Tangrowth segnala una nuova isola a NORD-OVEST: Manaphy è svenuto sulla spiaggia e chiede 5 Seaweed (abbondanti a Bleak Beach)."
+      },
+      {
+        "id": "db-04",
+        "phase": "p6",
+        "area": "bleak-beach",
+        "tags": [
+          "quest"
+        ],
+        "prereqs": [
+          "db-03"
+        ],
+        "title": "Parla con Popplio davanti al Pokémon Center di Bleak Beach",
+        "detail": "Popplio si registra nel Pokédex e indica il cancello sottomarino a OVEST che porta alla città sommersa."
+      },
+      {
+        "id": "db-05",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "quest"
+        ],
+        "prereqs": [
+          "db-04"
+        ],
+        "title": "Apri il cancello sottomarino ed entra nel Fondale Bolleblub",
+        "detail": "Immergiti con Dive a ovest di Bleak Beach: benvenuto nella città semi-sommersa del DLC."
+      },
+      {
+        "id": "db-06",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "quest"
+        ],
+        "prereqs": [
+          "db-05"
+        ],
+        "title": "Incontra Corsola e avvia la catena di richieste",
+        "detail": "Corsola è il quest giver principale: per prima cosa chiede un Pokémon sparabolle (Mudkip) per far crescere le piante subacquee."
+      },
+      {
+        "id": "db-07",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "habitat"
+        ],
+        "prereqs": [
+          "db-06"
+        ],
+        "title": "Costruisci la Seabed Tall Grass → Mudkip",
+        "detail": "L'Erba Alta del Fondale (o l'habitat Fluffy Relaxation) attira Mudkip: le sue bolle curano piante e angurie."
+      },
+      {
+        "id": "db-08",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "farm"
+        ],
+        "prereqs": [
+          "db-07"
+        ],
+        "title": "Coltiva le angurie con Corphish e le bolle di Mudkip",
+        "detail": "Parla con Corphish per piantare le angurie, falle curare dalle bolle di Mudkip e guida Corphish sui campi per farle maturare."
+      },
+      {
+        "id": "db-09",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "habitat",
+          "farm"
+        ],
+        "prereqs": [
+          "db-08"
+        ],
+        "title": "Crafta la Netting e attira Carvanha",
+        "detail": "La Netting si crea con Vine Rope + Twine; con l'habitat Alghe e Rete arriva Carvanha, che taglia le angurie a fette per la cucina."
+      },
+      {
+        "id": "db-10",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "build",
+          "farm"
+        ],
+        "prereqs": [
+          "db-09"
+        ],
+        "title": "Sblocca il Frullatore e prepara gli smoothie",
+        "detail": "Quest 'Smoothie Making' di Mudkip → Frullatore (2 Pokémetal). Gli smoothie (base 2 fette di anguria) potenziano Surf e Dive."
+      },
+      {
+        "id": "db-11",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "habitat"
+        ],
+        "prereqs": [
+          "db-05"
+        ],
+        "title": "Chimney Rocks Dig Site → Sharpedo",
+        "detail": "Recupera Wheelbarrow, Excavation Tools e Traffic Cone nella piazza della città e costruisci il sito di scavo tra i camini rocciosi."
+      },
+      {
+        "id": "db-12",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "habitat"
+        ],
+        "prereqs": [
+          "db-05"
+        ],
+        "title": "Mermaid's Gym → Starmie",
+        "detail": "Servono 6 Pedestal e le Poké Ball decorative Great, Heal, Dive e Net: uno degli habitat più elaborati del DLC."
+      },
+      {
+        "id": "db-13",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "quest",
+          "rank"
+        ],
+        "prereqs": [
+          "db-06"
+        ],
+        "title": "Porta il Fondale a Environment Level 3",
+        "detail": "Nuovi habitat, comfort dei residenti e richieste completate alzano il livello della città sommersa."
+      },
+      {
+        "id": "db-14",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "quest"
+        ],
+        "prereqs": [
+          "db-13"
+        ],
+        "title": "Avvia la richiesta del Sea Temple (Tempio del Mare)",
+        "detail": "Il traguardo della storia del DLC: si sblocca con la città a Environment Level 3."
+      },
+      {
+        "id": "db-15",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "habitat"
+        ],
+        "prereqs": [
+          "db-05"
+        ],
+        "title": "Habitat Dex del Fondale: 36 habitat, 50 Pokémon",
+        "detail": "Tutti esclusivi dell'area (nessuno spawn incrociato con l'isola): da Totodile a Golisopod, con i Buoyant Blocks per costruire in 3D."
       }
     ]
   },
@@ -1341,6 +1856,11 @@ window.POKOPIA = {
         "mainQuestDone": false
       },
       "sparkling-skylands": {
+        "unlocked": false,
+        "envLevel": 0,
+        "mainQuestDone": false
+      },
+      "bubbly-basin": {
         "unlocked": false,
         "envLevel": 0,
         "mainQuestDone": false

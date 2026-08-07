@@ -131,6 +131,51 @@
       ]
     },
     {
+      "id": "bubbly-basin",
+      "name": "Bubbly Basin",
+      "nameIt": "Fondale Bolleblub",
+      "kantoBase": "Città sottomarina semi-sommersa — nuova città del Pass di espansione Parte 1 (DLC, 5 agosto 2026)",
+      "unlock": { "rank": null, "note": "DLC 'Pass di espansione — Parte 1' + aggiornamento gratuito 2.0.0. Servono Jump (Magikarp), Surf (Lapras) e Dive (Manaphy); poi Popplio, davanti al Pokémon Center di Bleak Beach, indica il cancello sottomarino a OVEST" },
+      "mainQuest": {
+        "title": "Riporta in vita la città sommersa con Popplio e Corsola",
+        "requirements": [
+          "Impara Surf da Lapras: compare con la richiesta di Piplup attiva e chiede di ripulire 80 tile di fango",
+          "Impara Dive da Manaphy: isola a nord-ovest indicata da Tangrowth, portagli 5 Seaweed",
+          "Parla con Popplio al Pokémon Center di Bleak Beach e apri il cancello sottomarino a ovest",
+          "Completa la catena di richieste di Corsola (bolle di Mudkip → angurie con Corphish → Carvanha)",
+          "Porta il Fondale a Environment Level 3 e avvia la richiesta del Sea Temple (Tempio del Mare)"
+        ],
+        "reward": "36 nuovi habitat, 50 nuovi Pokémon esclusivi, blocchi galleggianti, arredi e costumi marini"
+      },
+      "npcs": [
+        { "name": "Popplio", "role": "Guida del DLC: ti registra nel Pokédex e indica il cancello sottomarino" },
+        { "name": "Manaphy", "role": "Insegna Dive — svenuto sull'isola a nord-ovest di Bleak Beach (porta 5 Seaweed)" },
+        { "name": "Corsola", "role": "Quest giver principale della catena del Fondale" },
+        { "name": "Mudkip", "role": "Spara bolle (cura piante e angurie) — sblocca il Frullatore con la quest 'Smoothie Making'" },
+        { "name": "Corphish", "role": "Avvia la coltivazione delle angurie" },
+        { "name": "Carvanha", "role": "Taglia le angurie a fette — attirato dall'habitat con alghe e Netting" },
+        { "name": "Sharpedo", "role": "Attirato dal Chimney Rocks Dig Site (materiali nella piazza della città)" }
+      ],
+      "loot": [
+        { "item": "Seabed Tall Grass (Erba Alta del Fondale)", "where": "Fondali dell'area", "method": "Raccolta — il materiale più riusato dagli habitat del DLC", "verified": false },
+        { "item": "Seafloor Flowers (Fiori del Fondale)", "where": "Fondali dell'area", "method": "Raccolta", "verified": false },
+        { "item": "Lush Seaweed (Alga Rigogliosa)", "where": "Zone di alghe", "method": "Raccolta", "verified": false },
+        { "item": "Colorful Coral (Corallo Colorato)", "where": "Barriere coralline", "method": "Raccolta", "verified": false },
+        { "item": "Sea Grape (Uva di Mare)", "where": "Fondali dell'area", "method": "Raccolta — ingrediente smoothie", "verified": false },
+        { "item": "Watermelon (Anguria)", "where": "Coltivazione con Corphish + bolle di Mudkip", "method": "Farming — Carvanha le taglia a fette per la cucina", "verified": true },
+        { "item": "Buoyant Blocks (Blocchi Galleggianti)", "where": "Materiale da costruzione esclusivo del DLC", "method": "Crafting/progressione — fluttuano a quote diverse per costruzioni 3D subacquee", "verified": true },
+        { "item": "Bottled Ship (Veliero in Bottiglia)", "where": "Da trovare/craftare", "method": "Serve per più habitat del DLC", "verified": false },
+        { "item": "Decorative Poké Balls (Great/Heal/Dive/Net)", "where": "Da trovare/craftare nell'area", "method": "Servono per il Mermaid's Gym (Starmie)", "verified": false }
+      ],
+      "tips": [
+        "Prima di entrare conviene chiudere la main quest di Bleak Beach: la catena Lapras→Manaphy si aggancia a quelle richieste.",
+        "Nuovo sistema di elettricità subacquea e macchine sparabolle per pulire il fango: cerca i Pokémon con le specialità giuste.",
+        "Gli smoothie (base 2 fette di anguria) potenziano Surf e Dive: sblocca presto il Frullatore con Mudkip.",
+        "Con i Buoyant Blocks puoi costruire strutture sospese a diverse altezze: sfrutta la terza dimensione.",
+        "La 2.0.0 aggiunge il deposito condiviso tra le città (140 slot): piazza un contenitore anche qui."
+      ]
+    },
+    {
       "id": "palette-town",
       "name": "Palette Town",
       "nameIt": "Palette Town (sandbox)",

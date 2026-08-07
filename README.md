@@ -11,9 +11,10 @@ analizzati in sessioni Claude Code, con notifiche dei prossimi passi su Telegram
 Apri `web/index.html` nel browser (funziona anche in doppio clic da file locale) oppure
 attiva GitHub Pages sulla cartella `web/`.
 
-- **🧭 Guida** — roadmap in 5 fasi con "prossimi passi consigliati": gli step si spuntano e i
-  successivi si sbloccano in base ai prerequisiti.
-- **🗺️ Aree & Loot** — le 5 aree con main quest, personaggi chiave, tabella looting e tips.
+- **🧭 Guida** — roadmap in 6 fasi (inclusa la Fase 6 del DLC Fondale Bolleblub) con "prossimi
+  passi consigliati": gli step si spuntano e i successivi si sbloccano in base ai prerequisiti.
+- **🗺️ Aree & Loot** — le 6 aree (5 base + Fondale Bolleblub) con main quest, personaggi chiave,
+  tabella looting e tips.
 - **🏞️ Habitat** — Habitat Dex con ricette/materiali, ricerca, filtri e checklist "costruito".
 - **🌱 Farming & Cucina** — colture, stazioni di cucina, economia Life Coins e loop giornaliero.
 - **💾 Stato** — rank, mosse imparate, export/import JSON, sync con `progress.json` della repo.
@@ -63,5 +64,6 @@ npm run check    # sintassi + validazione dati (id, prerequisiti, riferimenti)
 - La knowledge base è curata da fonti pubbliche (Game8, Nintendo Life, Serebii, wiki di settore).
 - Ogni dato ha un flag `verified`: `false` = da confermare in gioco. Gli screenshot che carichi
   sono la fonte di verità e promuovono i dati a `verified: true`.
-- L'Habitat Dex del gioco conta **213 habitat**: il catalogo qui parte dai principali e cresce
-  con le tue scoperte.
+- L'Habitat Dex del gioco conta **213 habitat** base + **36 del DLC Fondale Bolleblub**
+  (Pass di espansione — Parte 1, uscito il 5 agosto 2026 con l'update gratuito 2.0.0):
+  il catalogo qui parte dai principali e cresce con le tue scoperte.

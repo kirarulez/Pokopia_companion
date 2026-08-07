@@ -4,7 +4,8 @@
     "Il farming si sblocca imparando Rototiller da Drilbur (letto del fiume a est nella Withered Wasteland).",
     "Ciclo: ara il terreno con Rototiller → pianta i semi → innaffia con Water Gun → raccogli.",
     "I raccolti servono per la cucina e per gli habitat 'orto' (vegetable field).",
-    "Fertilizzante e sprinkler ottimizzano le farm avanzate (setup end-game)."
+    "Fertilizzante e sprinkler ottimizzano le farm avanzate (setup end-game).",
+    "Nel Fondale Bolleblub (DLC) si coltiva sott'acqua: le piante crescono con le bolle dei Pokémon con specialità Acqua (es. Mudkip)."
   ],
   "crops": [
     {
@@ -46,6 +47,16 @@
       "needs": ["acqua"],
       "usedFor": ["Ricette/habitat acquatici"],
       "verified": false
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "nameIt": "Anguria",
+      "unlock": "Fondale Bolleblub (DLC): parla con Corphish per avviare la coltivazione",
+      "seeds": { "source": "Catena di richieste di Corphish nel Fondale", "cost": "—" },
+      "needs": ["Bolle di Mudkip (specialità Acqua) sulle piantine", "Corphish per farle maturare", "Carvanha per tagliarle a fette"],
+      "usedFor": ["Watermelon Slices: base di tutti e 6 gli smoothie del DLC", "Le 10 nuove ricette del Fondale"],
+      "verified": false
     }
   ],
   "cookingStations": [
@@ -84,12 +95,23 @@
       "baseIngredient": "Beans (Fagioli)",
       "requires": "Padella posizionata su un fornello",
       "verified": true
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "nameIt": "Frullatore (DLC)",
+      "makes": "Smoothie — potenziano Surf e Dive",
+      "baseIngredient": "Watermelon Slices (2 fette di anguria)",
+      "requires": "Fondale Bolleblub: sblocca Mudkip, arriva alla quest 'Smoothie Making' e crafta il Frullatore con 2 Pokémetal",
+      "verified": false
     }
   ],
   "cookingUses": [
     "Ripristino PP: il cibo è la risorsa pratica per chi usa spesso le mosse (esplorazione, costruzione, raccolta).",
     "Comfort dei Pokémon: dai da mangiare per alzare il Comfort Level.",
     "Preferenze di gusto: ogni Pokémon ha sapori preferiti — il piatto giusto dà più comfort.",
-    "Ingredienti comuni: bacche, raccolti, funghi e materiali naturali trovati esplorando."
+    "Ingredienti comuni: bacche, raccolti, funghi e materiali naturali trovati esplorando.",
+    "DLC Fondale Bolleblub: 10 nuove ricette — 6 smoothie (base 2 fette di anguria) + insalata, zuppa, pane e hamburger steak marini.",
+    "Smoothie noti: Anguria (3 fette, Neutro), Leppa (2 fette + 1 baccaleppa, Dolce), Uva di Mare (2 fette + 1 Sea Grape, Secco), Soda Rinfrescante (1 fetta + 1 baccacedro + 1 Soda Pop, Aspro), Parfait al Caffè (1 fetta + 1 Moomoo Milk Coffee + 1 Simple Bread, Amaro)."
   ]
 }
