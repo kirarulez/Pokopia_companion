@@ -1,0 +1,78 @@
+{
+  "_schema": "Tips & Tricks curati da fonti community e guide (hamy.xyz, Nintendo Life, Polygon, Reddit r/Pokopia, GameFAQs, PokopiaCenter, TheGamer…). 'verified': false = meccanica riportata dalla community, da confermare in gioco. 'source': fonte principale del tip.",
+  "categories": [
+    {
+      "id": "primi-passi",
+      "title": "🚀 Primi passi",
+      "tips": [
+        { "text": "Puoi avere fino a 5 Pokémon al seguito, non 1 o 2 come sembra all'inizio: porta sempre una squadra completa per costruire ed esplorare.", "source": "Polygon", "verified": true },
+        { "text": "I follower più utili nelle prime ore hanno le specialità Search (Dowsing Machine: trova oggetti sepolti) e Storage.", "source": "Polygon", "verified": false },
+        { "text": "La prima città serve a imparare le meccaniche, non a essere il tuo capolavoro: gli upgrade successivi rendono costruzione e terraforming molto più veloci. Non perfezionare troppo presto.", "source": "Polygon", "verified": true },
+        { "text": "Costruisci habitat DI CONTINUO: sono facili — un ciuffo d'erba, qualche fiore o una canna da pesca vicino all'acqua bastano. Ogni spazio libero è un habitat potenziale.", "source": "Polygon / Nintendo Life", "verified": true },
+        { "text": "Sblocca Rollout appena possibile: è il re del terraforming veloce, distrugge il terreno molto più in fretta delle alternative.", "source": "GameFAQs / PokémonGOHub", "verified": false }
+      ]
+    },
+    {
+      "id": "energia-pp",
+      "title": "⚡ Energia & PP",
+      "tips": [
+        { "text": "Le bacche ripristinano PP all'istante: scuoti qualche albero e tieni SEMPRE una scorta nella borsa.", "source": "Polygon", "verified": true },
+        { "text": "Riposare su letti e sedie recupera PP gradualmente (i letti sono più veloci delle sedie).", "source": "GameFAQs", "verified": false },
+        { "text": "Il cibo cucinato ripristina TUTTI i PP e dà un bonus alla mossa: cucina sempre prima di una grossa sessione di costruzione.", "source": "GameFAQs / PokopiaCenter", "verified": true }
+      ]
+    },
+    {
+      "id": "costruzione",
+      "title": "🔨 Costruzione & crafting",
+      "tips": [
+        { "text": "Piazza un box di stoccaggio accanto al banco da lavoro: i materiali nel box si usano direttamente nel crafting. Si possono collegare fino a 4 box grandi allo stesso banco.", "source": "Polygon / TheGamer", "verified": false },
+        { "text": "Coda di crafting: seleziona la stessa ricetta più volte per accodare fino a 5 pezzi che si producono back-to-back.", "source": "PokopiaCenter", "verified": false },
+        { "text": "Tieni premuto A mentre piazzi i blocchi per posarli in fila continua, molto più veloce che uno alla volta.", "source": "PokopiaCenter", "verified": false },
+        { "text": "Ogni progetto con blueprint richiede almeno un Pokémon con specialità Build (es. Timburr/Gurdurr): fattene amico uno presto per mulini, cottage e strutture grandi.", "source": "Nintendo Life", "verified": true },
+        { "text": "Usa le scale con giudizio nelle zone molto trafficate e sfrutta case modulari annidate per layout compatti.", "source": "hamy.xyz", "verified": false }
+      ]
+    },
+    {
+      "id": "pokemon-comfort",
+      "title": "🤝 Pokémon, comfort & amicizia",
+      "tips": [
+        { "text": "Le richieste dei Pokémon sono la via più rapida per alzare il comfort: dai loro sempre priorità.", "source": "Reddit r/Pokopia", "verified": true },
+        { "text": "Arredi e decorazioni che il singolo Pokémon AMA alzano il comfort più in fretta di quelli generici.", "source": "Reddit r/Pokopia", "verified": false },
+        { "text": "Controlli il comfort chiedendolo direttamente al Pokémon oppure dalla Happiness Overview sul PC del Pokémon Center.", "source": "Reddit r/Pokopia", "verified": false },
+        { "text": "Ogni Pokémon ha sapori preferiti: il piatto giusto dà molto più comfort dello stesso piatto 'sbagliato'.", "source": "Nintendo Life", "verified": true }
+      ]
+    },
+    {
+      "id": "automazione",
+      "title": "🤖 Automazione & farm end-game",
+      "tips": [
+        { "text": "Community Box: i Pokémon amici ci depositano materiali automaticamente mentre girano per l'area. Più amici ci sono in zona, più in fretta si riempie.", "source": "TheGamer", "verified": false },
+        { "text": "Loop AFK: Pokémon con specialità Litter lasciano cadere oggetti → un Gather li raccoglie → finiscono nella Community Box. Il trio copre il farming passivo.", "source": "hamy.xyz", "verified": false },
+        { "text": "Honey farm automatica: pianta esattamente 4 fiori selvatici in quadrato stretto per attirare un Combee (Litter) che molla barattoli di miele; aggiungi un Gather nella stessa aiuola per la raccolta a zero sforzo.", "source": "Nerdschalk", "verified": false },
+        { "text": "Sistema i Pokémon vicino al posto di lavoro: Grow accanto alle colture, Burn accanto alle fornaci con le materie prime, Crush accanto ai mixer.", "source": "hamy.xyz", "verified": false },
+        { "text": "Lo sprinkler pesca acqua fino a 5 blocchi di distanza e innaffia a rombo: griglie 3×3 di sprinkler + frutteti di bacche sono il setup end-game per le colture.", "source": "hamy.xyz / GAMES.GG", "verified": false },
+        { "text": "Dream Islands: con le Dream Island Dolls farmi in fretta materiali di un tipo specifico — usale quando un progetto chiede quantità enormi di una sola risorsa.", "source": "Nintendo Life", "verified": false }
+      ]
+    },
+    {
+      "id": "segreti",
+      "title": "🔍 Segreti & meccaniche nascoste",
+      "tips": [
+        { "text": "Inhale ha un moltiplicatore nascosto: aspirando 10+ oggetti in un solo colpo ottieni un bonus 1.5× su tutto il raccolto. Ammassa prima, aspira poi.", "source": "PokopiaCenter", "verified": false },
+        { "text": "Ogni cascata nasconde una grotta (tradizione Pokémon): dentro trovi Poké Ball luminose con ricette rare e a volte habitat di specie non comuni.", "source": "PokopiaCenter / GameFAQs", "verified": false },
+        { "text": "I muri con una texture leggermente diversa (crepe accennate) si rompono con qualsiasi strumento da scavo: dietro ci sono tunnel scorciatoia, vene di risorse o stanzette col tesoro.", "source": "PokopiaCenter", "verified": false },
+        { "text": "Le PC Challenges vanno RISCOSSE al PC: completa e passa a riscuotere ogni giorno, il reset è alle 5:00.", "source": "GameFAQs", "verified": true }
+      ]
+    },
+    {
+      "id": "dlc",
+      "title": "🌊 Fondale Bolleblub (DLC) & update 2.0.0",
+      "tips": [
+        { "text": "Prepara gli smoothie appena sblocchi il Frullatore: potenziano Surf e Dive e rendono l'esplorazione subacquea molto più rapida.", "source": "GameSpot / Destructoid", "verified": false },
+        { "text": "Con i Buoyant Blocks costruisci su più quote: pensa la città sommersa in verticale, non in pianta.", "source": "Nintendo (annuncio ufficiale)", "verified": true },
+        { "text": "Piazza un contenitore del deposito condiviso (140 slot, update 2.0.0) in OGNI regione appena arrivi: mai più viaggi per i materiali.", "source": "TechTimes", "verified": false },
+        { "text": "Seabed Tall Grass è il materiale più riusato dagli habitat del DLC (serve per D1-001, 002 e 008): fanne scorta appena entri.", "source": "GAMES.GG / Game8", "verified": false }
+      ]
+    }
+  ]
+}

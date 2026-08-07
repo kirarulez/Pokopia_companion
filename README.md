@@ -17,6 +17,10 @@ attiva GitHub Pages sulla cartella `web/`.
   tabella looting e tips.
 - **🏞️ Habitat** — Habitat Dex con ricette/materiali, ricerca, filtri e checklist "costruito".
 - **🌱 Farming & Cucina** — colture, stazioni di cucina, economia Life Coins e loop giornaliero.
+- **💡 Tips & Tricks** — consigli per categoria (primi passi, PP, costruzione, comfort, automazione,
+  segreti, DLC) curati da guide e community, con fonte e flag di verifica.
+- **🏗️ Progetti** — raccolta di progetti di ispirazione (farming, edifici, trasporti, showcase)
+  con materiali, guide passo-passo e link a fonti con screenshot e video YouTube.
 - **💾 Stato** — rank, mosse imparate, export/import JSON, sync con `progress.json` della repo.
 
 Il progresso è in `localStorage` del browser; con **Esporta/Importa** lo porti tra dispositivi.

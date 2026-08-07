@@ -25,6 +25,8 @@ const data = {
   farming: loadJson('data/farming.json'),
   moves: loadJson('data/moves.json'),
   economy: loadJson('data/economy.json'),
+  tips: loadJson('data/tips.json'),
+  projects: loadJson('data/projects.json'),
   roadmap: loadJson('data/roadmap.json'),
   progress: loadJson('progress/progress.json'),
 };

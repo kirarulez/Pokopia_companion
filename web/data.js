@@ -1065,6 +1065,643 @@ window.POKOPIA = {
       "Avvia un progetto di costruzione prima di chiudere: procede in tempo reale"
     ]
   },
+  "tips": {
+    "_schema": "Tips & Tricks curati da fonti community e guide (hamy.xyz, Nintendo Life, Polygon, Reddit r/Pokopia, GameFAQs, PokopiaCenter, TheGamer…). 'verified': false = meccanica riportata dalla community, da confermare in gioco. 'source': fonte principale del tip.",
+    "categories": [
+      {
+        "id": "primi-passi",
+        "title": "🚀 Primi passi",
+        "tips": [
+          {
+            "text": "Puoi avere fino a 5 Pokémon al seguito, non 1 o 2 come sembra all'inizio: porta sempre una squadra completa per costruire ed esplorare.",
+            "source": "Polygon",
+            "verified": true
+          },
+          {
+            "text": "I follower più utili nelle prime ore hanno le specialità Search (Dowsing Machine: trova oggetti sepolti) e Storage.",
+            "source": "Polygon",
+            "verified": false
+          },
+          {
+            "text": "La prima città serve a imparare le meccaniche, non a essere il tuo capolavoro: gli upgrade successivi rendono costruzione e terraforming molto più veloci. Non perfezionare troppo presto.",
+            "source": "Polygon",
+            "verified": true
+          },
+          {
+            "text": "Costruisci habitat DI CONTINUO: sono facili — un ciuffo d'erba, qualche fiore o una canna da pesca vicino all'acqua bastano. Ogni spazio libero è un habitat potenziale.",
+            "source": "Polygon / Nintendo Life",
+            "verified": true
+          },
+          {
+            "text": "Sblocca Rollout appena possibile: è il re del terraforming veloce, distrugge il terreno molto più in fretta delle alternative.",
+            "source": "GameFAQs / PokémonGOHub",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "id": "energia-pp",
+        "title": "⚡ Energia & PP",
+        "tips": [
+          {
+            "text": "Le bacche ripristinano PP all'istante: scuoti qualche albero e tieni SEMPRE una scorta nella borsa.",
+            "source": "Polygon",
+            "verified": true
+          },
+          {
+            "text": "Riposare su letti e sedie recupera PP gradualmente (i letti sono più veloci delle sedie).",
+            "source": "GameFAQs",
+            "verified": false
+          },
+          {
+            "text": "Il cibo cucinato ripristina TUTTI i PP e dà un bonus alla mossa: cucina sempre prima di una grossa sessione di costruzione.",
+            "source": "GameFAQs / PokopiaCenter",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "costruzione",
+        "title": "🔨 Costruzione & crafting",
+        "tips": [
+          {
+            "text": "Piazza un box di stoccaggio accanto al banco da lavoro: i materiali nel box si usano direttamente nel crafting. Si possono collegare fino a 4 box grandi allo stesso banco.",
+            "source": "Polygon / TheGamer",
+            "verified": false
+          },
+          {
+            "text": "Coda di crafting: seleziona la stessa ricetta più volte per accodare fino a 5 pezzi che si producono back-to-back.",
+            "source": "PokopiaCenter",
+            "verified": false
+          },
+          {
+            "text": "Tieni premuto A mentre piazzi i blocchi per posarli in fila continua, molto più veloce che uno alla volta.",
+            "source": "PokopiaCenter",
+            "verified": false
+          },
+          {
+            "text": "Ogni progetto con blueprint richiede almeno un Pokémon con specialità Build (es. Timburr/Gurdurr): fattene amico uno presto per mulini, cottage e strutture grandi.",
+            "source": "Nintendo Life",
+            "verified": true
+          },
+          {
+            "text": "Usa le scale con giudizio nelle zone molto trafficate e sfrutta case modulari annidate per layout compatti.",
+            "source": "hamy.xyz",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "id": "pokemon-comfort",
+        "title": "🤝 Pokémon, comfort & amicizia",
+        "tips": [
+          {
+            "text": "Le richieste dei Pokémon sono la via più rapida per alzare il comfort: dai loro sempre priorità.",
+            "source": "Reddit r/Pokopia",
+            "verified": true
+          },
+          {
+            "text": "Arredi e decorazioni che il singolo Pokémon AMA alzano il comfort più in fretta di quelli generici.",
+            "source": "Reddit r/Pokopia",
+            "verified": false
+          },
+          {
+            "text": "Controlli il comfort chiedendolo direttamente al Pokémon oppure dalla Happiness Overview sul PC del Pokémon Center.",
+            "source": "Reddit r/Pokopia",
+            "verified": false
+          },
+          {
+            "text": "Ogni Pokémon ha sapori preferiti: il piatto giusto dà molto più comfort dello stesso piatto 'sbagliato'.",
+            "source": "Nintendo Life",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "automazione",
+        "title": "🤖 Automazione & farm end-game",
+        "tips": [
+          {
+            "text": "Community Box: i Pokémon amici ci depositano materiali automaticamente mentre girano per l'area. Più amici ci sono in zona, più in fretta si riempie.",
+            "source": "TheGamer",
+            "verified": false
+          },
+          {
+            "text": "Loop AFK: Pokémon con specialità Litter lasciano cadere oggetti → un Gather li raccoglie → finiscono nella Community Box. Il trio copre il farming passivo.",
+            "source": "hamy.xyz",
+            "verified": false
+          },
+          {
+            "text": "Honey farm automatica: pianta esattamente 4 fiori selvatici in quadrato stretto per attirare un Combee (Litter) che molla barattoli di miele; aggiungi un Gather nella stessa aiuola per la raccolta a zero sforzo.",
+            "source": "Nerdschalk",
+            "verified": false
+          },
+          {
+            "text": "Sistema i Pokémon vicino al posto di lavoro: Grow accanto alle colture, Burn accanto alle fornaci con le materie prime, Crush accanto ai mixer.",
+            "source": "hamy.xyz",
+            "verified": false
+          },
+          {
+            "text": "Lo sprinkler pesca acqua fino a 5 blocchi di distanza e innaffia a rombo: griglie 3×3 di sprinkler + frutteti di bacche sono il setup end-game per le colture.",
+            "source": "hamy.xyz / GAMES.GG",
+            "verified": false
+          },
+          {
+            "text": "Dream Islands: con le Dream Island Dolls farmi in fretta materiali di un tipo specifico — usale quando un progetto chiede quantità enormi di una sola risorsa.",
+            "source": "Nintendo Life",
+            "verified": false
+          }
+        ]
+      },
+      {
+        "id": "segreti",
+        "title": "🔍 Segreti & meccaniche nascoste",
+        "tips": [
+          {
+            "text": "Inhale ha un moltiplicatore nascosto: aspirando 10+ oggetti in un solo colpo ottieni un bonus 1.5× su tutto il raccolto. Ammassa prima, aspira poi.",
+            "source": "PokopiaCenter",
+            "verified": false
+          },
+          {
+            "text": "Ogni cascata nasconde una grotta (tradizione Pokémon): dentro trovi Poké Ball luminose con ricette rare e a volte habitat di specie non comuni.",
+            "source": "PokopiaCenter / GameFAQs",
+            "verified": false
+          },
+          {
+            "text": "I muri con una texture leggermente diversa (crepe accennate) si rompono con qualsiasi strumento da scavo: dietro ci sono tunnel scorciatoia, vene di risorse o stanzette col tesoro.",
+            "source": "PokopiaCenter",
+            "verified": false
+          },
+          {
+            "text": "Le PC Challenges vanno RISCOSSE al PC: completa e passa a riscuotere ogni giorno, il reset è alle 5:00.",
+            "source": "GameFAQs",
+            "verified": true
+          }
+        ]
+      },
+      {
+        "id": "dlc",
+        "title": "🌊 Fondale Bolleblub (DLC) & update 2.0.0",
+        "tips": [
+          {
+            "text": "Prepara gli smoothie appena sblocchi il Frullatore: potenziano Surf e Dive e rendono l'esplorazione subacquea molto più rapida.",
+            "source": "GameSpot / Destructoid",
+            "verified": false
+          },
+          {
+            "text": "Con i Buoyant Blocks costruisci su più quote: pensa la città sommersa in verticale, non in pianta.",
+            "source": "Nintendo (annuncio ufficiale)",
+            "verified": true
+          },
+          {
+            "text": "Piazza un contenitore del deposito condiviso (140 slot, update 2.0.0) in OGNI regione appena arrivi: mai più viaggi per i materiali.",
+            "source": "TechTimes",
+            "verified": false
+          },
+          {
+            "text": "Seabed Tall Grass è il materiale più riusato dagli habitat del DLC (serve per D1-001, 002 e 008): fanne scorta appena entri.",
+            "source": "GAMES.GG / Game8",
+            "verified": false
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "_schema": "Progetti di ispirazione per le città: farming, edifici, trasporti, showcase. 'materials': null = lista da completare (screenshot o fonte). 'steps': guida passo-passo quando nota. 'sources': link a guide con screenshot e video YouTube. 'verified': false = da confermare in gioco.",
+    "categories": [
+      {
+        "id": "farming",
+        "title": "🌾 Farming & automazione"
+      },
+      {
+        "id": "edifici",
+        "title": "🏠 Edifici & energia"
+      },
+      {
+        "id": "trasporti",
+        "title": "🚃 Trasporti"
+      },
+      {
+        "id": "ispirazione",
+        "title": "🎨 Città & ispirazione"
+      }
+    ],
+    "projects": [
+      {
+        "id": "honey-farm",
+        "name": "Honey Farm automatica (Combee)",
+        "category": "farming",
+        "description": "Farm di miele a zero sforzo: un quadrato di fiori attira un Combee con specialità Litter che lascia cadere barattoli di miele; un Pokémon Gather li raccoglie per te.",
+        "materials": [
+          {
+            "item": "Fiori selvatici",
+            "qty": 4,
+            "note": "in quadrato stretto 2×2"
+          }
+        ],
+        "steps": [
+          "Pianta esattamente 4 fiori selvatici in un quadrato stretto",
+          "Aspetta che l'aiuola attiri un Combee (specialità Litter): mollerà barattoli di miele a terra",
+          "Invita nella stessa aiuola un Pokémon con specialità Gather: raccoglie il miele automaticamente",
+          "Opzionale: piazza vicino una Community Box per il deposito automatico"
+        ],
+        "sources": [
+          {
+            "label": "Nerdschalk — Top 5 automation farm builds (con screenshot)",
+            "url": "https://nerdschalk.com/top-5-automation-farm-builds-for-crops-iron-honey-and-more-in-pokemon-pokopia/",
+            "type": "guida"
+          },
+          {
+            "label": "GAMES.GG — Best automatic honey farm setups",
+            "url": "https://games.gg/pokemon-pokopia/guides/pokemon-pokopia-best-automatic-honey-farm-setups/",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "sprinkler-grid",
+        "name": "Griglia sprinkler 3×3 + frutteto di bacche",
+        "category": "farming",
+        "description": "Il setup colture end-game: gli sprinkler pescano acqua fino a 5 blocchi di distanza e innaffiano a rombo. Griglie 3×3 affiancate + frutteto di bacche a bordo campo.",
+        "materials": [
+          {
+            "item": "Sprinkler",
+            "qty": 1,
+            "note": "per ogni rombo di terreno arato"
+          },
+          {
+            "item": "Fonte d'acqua",
+            "qty": 1,
+            "note": "entro 5 blocchi dallo sprinkler"
+          }
+        ],
+        "steps": [
+          "Ara un campo e piazza la fonte d'acqua",
+          "Posiziona lo sprinkler entro 5 blocchi dall'acqua: copre un'area a rombo",
+          "Ripeti in griglia 3×3 per coprire l'intero campo senza buchi",
+          "Cintura di alberi di bacche sul perimetro e un Pokémon Grow alloggiato accanto alle colture"
+        ],
+        "sources": [
+          {
+            "label": "HAMY — Pokopia endgame setup (layout consigliati)",
+            "url": "https://hamy.xyz/blog/2026-03_pokopia-endgame-setup",
+            "type": "guida"
+          },
+          {
+            "label": "GAMES.GG — Berry tree & sprinkler automation layouts (con schemi)",
+            "url": "https://games.gg/pokemon-pokopia/guides/pokemon-pokopia-berry-tree-sprinkler-crop-automation-layouts/",
+            "type": "guida"
+          },
+          {
+            "label": "PokopiaCenter — Farming guide 2026",
+            "url": "https://pokopia.center/posts/pokopia-farming-guide-complete-2026/",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "iron-brick-farm",
+        "name": "Fattoria automatica di ferro e mattoni",
+        "category": "farming",
+        "description": "Fonderia semi-automatica: la fornace dentro la casa/habitat di un Pokémon con specialità Burn (Charmander & co.) fonde da sola ogni volta che il Pokémon è a casa.",
+        "materials": [
+          {
+            "item": "Smelting Furnace",
+            "qty": 1
+          },
+          {
+            "item": "Iron Ore",
+            "qty": 1,
+            "note": "da Rocky Ridges o Dream Islands (scorta continua)"
+          }
+        ],
+        "steps": [
+          "Costruisci la fornace DENTRO la casa/habitat di un Pokémon con specialità Burn",
+          "Riempila di minerale: il Pokémon fonde automaticamente quando è a casa",
+          "Puoi ritirare i lingotti pronti anche a lavorazione in corso",
+          "Replica lo schema con i mixer e i Pokémon Crush per mattoni e cemento"
+        ],
+        "sources": [
+          {
+            "label": "GameRant — How to get and use Iron Ingot",
+            "url": "https://gamerant.com/pokemon-pokopia-how-get-iron-ore-ingot-use/",
+            "type": "guida"
+          },
+          {
+            "label": "Dexerto — Iron Ore e Iron Ingots",
+            "url": "https://www.dexerto.com/wikis/pokopia/how-to-get-iron-ore-and-iron-ingots-in-pokopia/",
+            "type": "guida"
+          },
+          {
+            "label": "YouTube — Auto Iron & Brick Farm Guide That Saves Hours",
+            "url": "https://www.youtube.com/watch?v=yXmXogmTn5k",
+            "type": "video"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "afk-community-box",
+        "name": "Farm AFK: Litter → Gather → Community Box",
+        "category": "farming",
+        "description": "Il loop di raccolta passiva: i Pokémon Litter lasciano cadere oggetti, i Gather li raccolgono e li depositano nella Community Box. Più amici nell'area, più veloce il riempimento.",
+        "materials": [
+          {
+            "item": "Community Box",
+            "qty": 1,
+            "note": "craftabile; una per area produttiva"
+          }
+        ],
+        "steps": [
+          "Crafta e piazza una Community Box nella zona di produzione",
+          "Attira/alloggia Pokémon con specialità Litter (producono oggetti a terra)",
+          "Aggiungi un Pokémon Gather nella stessa zona: raccoglie e deposita nella box",
+          "Le specialità di lavorazione (Burn, Crush, Recycle) possono pescare i materiali direttamente dalla box"
+        ],
+        "sources": [
+          {
+            "label": "HAMY — Endgame walkthrough (schema litter→gather→box)",
+            "url": "https://hamy.xyz/blog/2026-03_pokopia-endgame-setup",
+            "type": "guida"
+          },
+          {
+            "label": "YouTube — Community Box, Gathering & AFK farms",
+            "url": "https://www.youtube.com/watch?v=lvMu4UBuO1U",
+            "type": "video"
+          },
+          {
+            "label": "TheGamer — Pro tips (4 box collegabili al banco)",
+            "url": "https://www.thegamer.com/pokemon-pokopia-pro-tips-tricks/",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "dream-islands-farming",
+        "name": "Dream Islands: farming mirato di materiali",
+        "category": "farming",
+        "description": "Le Dream Island Dolls aprono isole dei sogni dove un singolo tipo di materiale abbonda: il modo migliore per fare scorta di Iron Ore e risorse specifiche in grandi quantità.",
+        "materials": [
+          {
+            "item": "Dream Island Doll",
+            "qty": 1,
+            "note": "es. Clefairy Doll: trovala e mostrala a Drifloon"
+          }
+        ],
+        "steps": [
+          "Trova una Doll (es. Clefairy Doll) esplorando",
+          "Mostrala a Drifloon per aprire la Dream Island corrispondente",
+          "Farma il materiale abbondante dell'isola e torna quando serve"
+        ],
+        "sources": [
+          {
+            "label": "Nintendo Life — Guida hub (sezione Dream Islands)",
+            "url": "https://www.nintendolife.com/guides/pokemon-pokopia-walkthrough-all-pokemon-abilities-building-tips-and-tricks",
+            "type": "guida"
+          },
+          {
+            "label": "GameRant — Iron Ore su Dream Islands",
+            "url": "https://gamerant.com/pokemon-pokopia-how-get-iron-ore-ingot-use/",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "windmill",
+        "name": "Mulino a vento (Windmill Kit)",
+        "category": "edifici",
+        "description": "Generatore eolico: trasforma il vento in tanta energia. Con i pali della luce colleghi la corrente dal mulino agli oggetti da alimentare.",
+        "materials": null,
+        "steps": [
+          "Sblocca il kit progredendo nella storia di Bleak Beach (poi in vendita al PC Shop; capita anche nei Glowing Spots)",
+          "Piazza il blueprint e fornisci i materiali richiesti dal kit",
+          "Serve almeno un Pokémon con specialità Build (Timburr/Gurdurr) nel cantiere",
+          "Collega il mulino agli apparecchi con gli utility poles"
+        ],
+        "sources": [
+          {
+            "label": "Game8 — How to get Windmill Kits",
+            "url": "https://game8.co/games/Pokemon-Pokopia/archives/591373",
+            "type": "guida"
+          },
+          {
+            "label": "Serebii — Windmill kit (scheda con materiali)",
+            "url": "https://www.serebii.net/pokemonpokopia/build/windmillkit.shtml",
+            "type": "guida"
+          },
+          {
+            "label": "Pokopia Habitats — Windmill, how to build (con screenshot)",
+            "url": "https://pokopiahabitats.com/building/windmill",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "building-kits",
+        "name": "Building Kits: i 50 kit di costruzione",
+        "category": "edifici",
+        "description": "I kit sono blueprint prefabbricati (case, edifici pubblici, strutture energetiche, impianti speciali): fornisci materiali e operai Pokémon e la struttura si costruisce da sola in tempo reale. I database linkati hanno la lista materiali di OGNI kit.",
+        "materials": null,
+        "steps": [
+          "Compra i kit al PC Shop (stock a rotazione) o trovali nei Glowing Spots",
+          "Piazza il blueprint dove vuoi la struttura",
+          "Consegna i materiali richiesti e assegna un Pokémon Build",
+          "Attendi la costruzione in tempo reale (edifici grandi ≈ un giorno)"
+        ],
+        "sources": [
+          {
+            "label": "Pokopia Guide — All 50 construction kits & materials (liste complete)",
+            "url": "https://pokopiaguide.com/habitat/construction-kits",
+            "type": "guida"
+          },
+          {
+            "label": "Game8 — List of all Kits",
+            "url": "https://game8.co/games/Pokemon-Pokopia/archives/586481",
+            "type": "guida"
+          },
+          {
+            "label": "Serebii — Building & kits database",
+            "url": "https://www.serebii.net/pokemonpokopia/building.shtml",
+            "type": "guida"
+          },
+          {
+            "label": "The Games Wiki — Building Kits guide",
+            "url": "https://thegameswiki.com/pokopia/wiki/building-kits-guide",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "house-designs",
+        "name": "17+ idee di design per case",
+        "category": "edifici",
+        "description": "Raccolte fotografiche di case della community: stili giapponesi con lanterne rosse e tegole, cottage, ville — da copiare o remixare.",
+        "materials": null,
+        "steps": null,
+        "sources": [
+          {
+            "label": "FZINE — 17 Pokopia house design ideas (gallery di screenshot)",
+            "url": "https://www.fzine.com/culture/pokopia-house-build-ideas",
+            "type": "screenshot"
+          },
+          {
+            "label": "Game8 — How to build houses and structures",
+            "url": "https://game8.co/games/Pokemon-Pokopia/archives/584771",
+            "type": "guida"
+          },
+          {
+            "label": "Pokopia Guide — Building techniques (tutte le tecniche)",
+            "url": "https://pokopiaguide.com/guides/building-techniques",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "railway-minecart",
+        "name": "Ferrovia + carrello (Handcar/Minecart)",
+        "category": "trasporti",
+        "description": "Il sistema di trasporto su rotaia: binari craftabili e carrelli su cui salgono anche i tuoi Pokémon (fino a 6 a bordo nei video della community!).",
+        "materials": [
+          {
+            "item": "Railway Track",
+            "qty": 1,
+            "note": "craft al Workbench; scorta nella Poké Ball GIALLA nel tunnel al centro della mappa (serve Cut potenziato per la rete metallica)"
+          },
+          {
+            "item": "Handcar/Minecart",
+            "qty": 1,
+            "note": "craft al Workbench"
+          }
+        ],
+        "steps": [
+          "Sblocca Cut potenziato per superare la rete metallica del tunnel centrale",
+          "Recupera le Railway Track nella Poké Ball gialla (o craftale al banco)",
+          "Stendi il tracciato tra le zone che vuoi collegare (occhio alle pendenze)",
+          "Crafta il carrello, piazzalo sui binari e sali: i Pokémon al seguito salgono con te"
+        ],
+        "sources": [
+          {
+            "label": "Game8 — How to get Railway Tracks",
+            "url": "https://game8.co/games/Pokemon-Pokopia/archives/587238",
+            "type": "guida"
+          },
+          {
+            "label": "YouTube — How to make Minecarts (HandCars)",
+            "url": "https://www.youtube.com/watch?v=ljIlLF9-Zj4",
+            "type": "video"
+          },
+          {
+            "label": "YouTube — Ride the handcar with your Pokémon friends",
+            "url": "https://www.youtube.com/watch?v=BQp52xpJVqY",
+            "type": "video"
+          },
+          {
+            "label": "YouTube — Train track + 6 Pokémon in minecart (Rocky Ridges)",
+            "url": "https://www.youtube.com/watch?v=QqHt5Vt7hoA",
+            "type": "video"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "skyscraper-city",
+        "name": "Metropoli: grattacieli e appartamenti",
+        "category": "ispirazione",
+        "description": "Speed build di una grande città con grattacielo, palazzine di appartamenti e persino un konbini 7/11: habitat urbani in verticale.",
+        "materials": null,
+        "steps": null,
+        "sources": [
+          {
+            "label": "YouTube — Building a huge city: skyscraper & apartments (speed build)",
+            "url": "https://www.youtube.com/watch?v=zTFCEIFJMgU",
+            "type": "video"
+          },
+          {
+            "label": "YouTube — Huge city parte 3: 7/11, apartments & more",
+            "url": "https://www.youtube.com/watch?v=eG9g1Fwg2ak",
+            "type": "video"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "forest-town",
+        "name": "Quartiere nel bosco (estetica naturale)",
+        "category": "ispirazione",
+        "description": "Speed build di un vicinato immerso nella foresta, con materiali naturali e percorsi organici: l'opposto della metropoli, perfetto per le aree verdi.",
+        "materials": null,
+        "steps": null,
+        "sources": [
+          {
+            "label": "YouTube — Forest town neighborhood, natural aesthetic (speed build)",
+            "url": "https://www.youtube.com/watch?v=JHFNYz8NUZc",
+            "type": "video"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "community-showcase",
+        "name": "Showcase della community: navi pirata, fari, città sotterranee",
+        "category": "ispirazione",
+        "description": "Le raccolte dei build più spettacolari: palestra di Vermilion City ricreata, nave pirata completa di ancora e vele, faro su isolotto, villaggio sugli alberi con cascate e mulini, ramen shop giapponesi, stazioni ferroviarie e città sotterranee.",
+        "materials": null,
+        "steps": null,
+        "sources": [
+          {
+            "label": "GameSpot — The best Pokopia builds we've seen (con screenshot)",
+            "url": "https://www.gamespot.com/articles/the-best-pokemon-pokopia-builds/1100-6538965/",
+            "type": "screenshot"
+          },
+          {
+            "label": "TheGamer — The coolest town designs (con screenshot)",
+            "url": "https://www.thegamer.com/pokemon-pokopia-creative-town-builds-community-houses/",
+            "type": "screenshot"
+          },
+          {
+            "label": "YouTube — 8 amazing builds: haunted mansions, farms & more",
+            "url": "https://www.youtube.com/watch?v=7mnOUEO8WdE",
+            "type": "video"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "build-tutorials",
+        "name": "Tutorial di costruzione con lista materiali",
+        "category": "ispirazione",
+        "description": "Playlist e video di tecnica pura: tutorial passo-passo che includono la lista dei materiali di ogni build, più consigli di design generali per migliorare qualsiasi città.",
+        "materials": null,
+        "steps": null,
+        "sources": [
+          {
+            "label": "YouTube — Playlist 'Build Ideas & Tutorials ✿ Materials List Included'",
+            "url": "https://www.youtube.com/playlist?list=PLzTi8sLfTs895h-9Fhlm9xpJUIL-rS_vP",
+            "type": "video"
+          },
+          {
+            "label": "YouTube — Design tips & build ideas you should know",
+            "url": "https://www.youtube.com/watch?v=qqZ3TNA91AM",
+            "type": "video"
+          },
+          {
+            "label": "YouTube — You can design BETTER in Pokopia: easy tips",
+            "url": "https://www.youtube.com/watch?v=BSzj9XqFnw0",
+            "type": "video"
+          }
+        ],
+        "verified": false
+      }
+    ]
+  },
   "roadmap": {
     "_schema": "Guida passo-passo. Ogni step: id univoco, phase, area, tags, prereqs (id di step da completare prima). L'engine suggerisce i primi step non fatti con prerequisiti soddisfatti.",
     "phases": [
