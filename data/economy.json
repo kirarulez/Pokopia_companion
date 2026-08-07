@@ -5,7 +5,8 @@
     { "method": "PC Challenges (anche giornaliere)", "note": "Fonte principale. Vanno RISCOSSE al PC dopo il completamento. Le giornaliere si rinnovano alle 5:00.", "verified": true },
     { "method": "Stamp Rally", "note": "Sistema a timbri con ricompense in Life Coins", "verified": true },
     { "method": "Vendita oggetti", "note": "Vendi surplus di materiali e raccolti", "verified": true },
-    { "method": "Alzare l'Environment Level", "note": "Sblocca Challenge aggiuntive (comfort, amicizie, case, richieste)", "verified": true }
+    { "method": "Alzare l'Environment Level", "note": "Sblocca Challenge aggiuntive (comfort, amicizie, case, richieste)", "verified": true },
+    { "method": "Valutazione Lost Relics", "note": "Con l'update 2.0.0 si valutano in lotti fino a 10 alla volta: niente più dialoghi ripetuti", "verified": false }
   ],
   "pcShop": {
     "where": "PC del Pokémon Center",
@@ -18,7 +19,7 @@
     ]
   },
   "buildings": {
-    "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale.",
+    "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale. Update 2.0.0: deposito CONDIVISO tra le città (fino a 140 oggetti) — basta piazzare un contenitore in ogni regione.",
     "verified": true
   },
   "dailyLoop": [

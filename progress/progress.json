@@ -9,6 +9,7 @@
     "bleak-beach": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
     "rocky-ridges": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
     "sparkling-skylands": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
+    "bubbly-basin": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
     "palette-town": { "unlocked": true, "envLevel": 0, "mainQuestDone": false }
   },
   "lifeCoins": null,

@@ -1,14 +1,14 @@
 {
-  "_schema": "Le 14 mosse/trasformazioni di Ditto in Pokopia. Si imparano dai Pokémon incontrati (a volte dopo una richiesta). Le voci con 'verified': false o teacher null vanno completate con gli screenshot.",
-  "totalInGame": 14,
+  "_schema": "Mosse/trasformazioni di Ditto in Pokopia. Il gioco base ne conta 14; l'update 2.0.0 aggiunge Dive (15). Inhale è l'abilità base di Ditto, disponibile da subito (probabilmente fuori dal conteggio del menu mosse). Si imparano dai Pokémon incontrati, spesso dopo una richiesta. 'verified': false = insegnante/procedura da confermare con screenshot.",
+  "totalInGame": 15,
   "moves": [
     {
       "id": "inhale",
       "name": "Inhale",
       "nameIt": "Aspira",
       "teacher": null,
-      "howTo": "Disponibile da subito — tieni premuto Y",
-      "use": "Aspira risorse sparse (legno, pietra, bacche): il looting di base",
+      "howTo": "Abilità base di Ditto, disponibile da subito — tieni premuto Y",
+      "use": "Aspira risorse sparse (legno, pietra, bacche): il looting di base. Trucco community: 10+ oggetti in un colpo = bonus 1.5×",
       "verified": true
     },
     {
@@ -16,35 +16,98 @@
       "name": "Water Gun",
       "nameIt": "Pistolacqua",
       "teacher": "Squirtle",
-      "howTo": "Primo potere della storia: lo impari dallo Squirtle svenuto nella Withered Wasteland",
+      "howTo": "Primo potere della storia: lo impari dallo Squirtle svenuto nella Withered Wasteland (tutorial)",
       "use": "Innaffiare colture, pulire fango/sporco, riempire d'acqua",
       "verified": true
     },
     {
-      "id": "rototiller",
-      "name": "Rototiller",
-      "nameIt": "Aratura",
-      "teacher": "Drilbur",
-      "howTo": "Parla con Drilbur nel letto del fiume secco a EST della Central Plaza",
-      "use": "Ara il terreno: sblocca l'intero sistema farming",
-      "verified": true
+      "id": "leafage",
+      "name": "Leafage",
+      "nameIt": "Fogliame",
+      "teacher": "Bulbasaur",
+      "howTo": "Withered Wasteland: costruisci l'habitat Erba Alta (4 Tall Grass) per attirare Bulbasaur, poi completa la sua richiesta (innaffia 10 chiazze d'erba secca)",
+      "use": "Fa crescere l'erba alta sui terreni adatti — fondamentale per creare habitat ovunque",
+      "verified": false
     },
     {
       "id": "cut",
       "name": "Cut",
       "nameIt": "Taglio",
       "teacher": "Scyther",
-      "howTo": "Si impara da Scyther",
-      "use": "Taglia tronchi ed erba",
+      "howTo": "Withered Wasteland: si impara da Scyther, in una quest combinata con Hitmonchan (che insegna Rock Smash)",
+      "use": "Taglia tronchi ed erba. La versione potenziata apre anche le reti metalliche (es. tunnel delle Railway Track)",
       "verified": true
     },
     {
+      "id": "rock-smash",
+      "name": "Rock Smash",
+      "nameIt": "Spaccaroccia",
+      "teacher": "Hitmonchan",
+      "howTo": "Withered Wasteland: quest combinata con Scyther (Cut)",
+      "use": "Spacca rocce e macigni per liberare aree e raccogliere pietra",
+      "verified": false
+    },
+    {
+      "id": "rototiller",
+      "name": "Rototiller",
+      "nameIt": "Aratura",
+      "teacher": "Drilbur",
+      "howTo": "Parla con Drilbur nel letto del fiume secco a EST della Central Plaza (Withered Wasteland)",
+      "use": "Ara il terreno: sblocca l'intero sistema farming",
+      "verified": true
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "nameIt": "Salto",
+      "teacher": "Magikarp",
+      "howTo": "Si impara da Magikarp nella Withered Wasteland — prerequisito della catena che porta al Fondale Bolleblub",
+      "use": "Salta ostacoli e dislivelli",
+      "verified": false
+    },
+    {
+      "id": "surf",
+      "name": "Surf",
+      "nameIt": "Surf",
+      "teacher": "Lapras",
+      "howTo": "Lapras compare a Bleak Beach con la richiesta di Piplup attiva: ripulisci 80 tile di fango e riparlagli",
+      "use": "Nuota veloce in superficie. Con la 2.0.0 è potenziato: più velocità e rompe i blocchi. Gli smoothie lo potenziano ulteriormente",
+      "verified": false
+    },
+    {
+      "id": "camouflage",
+      "name": "Camouflage",
+      "nameIt": "Camuffamento",
+      "teacher": "Zorua",
+      "howTo": "Bleak Beach: porta a termine la missione di Zorua",
+      "use": "Ditto si trasforma in un oggetto: perfetto per osservare i Pokémon da vicino senza disturbarli",
+      "verified": false
+    },
+    {
       "id": "suck",
-      "name": "Suck",
+      "name": "Suck Up Liquids",
       "nameIt": "Risucchio",
-      "teacher": null,
-      "howTo": "Da confermare",
-      "use": "Sposta l'acqua da un punto all'altro (terraforming idrico)",
+      "teacher": "Wooper",
+      "howTo": "Bleak Beach: trova Wooper dopo un po' di progressi nell'area",
+      "use": "Aspira l'acqua e la sposta da un punto all'altro (terraforming idrico)",
+      "verified": false
+    },
+    {
+      "id": "rollout",
+      "name": "Rollout",
+      "nameIt": "Rotolamento",
+      "teacher": "Graveler",
+      "howTo": "Rocky Ridges: si impara da Graveler",
+      "use": "Distrugge il terreno rotolando: il re del terraforming veloce — sbloccalo appena puoi",
+      "verified": false
+    },
+    {
+      "id": "strength",
+      "name": "Strength",
+      "nameIt": "Forza",
+      "teacher": "Machoke",
+      "howTo": "Rocky Ridges: si impara da un Machoke in un campo di allenamento erboso",
+      "use": "Sposta grandi massi e blocchi pesanti",
       "verified": false
     },
     {
@@ -53,9 +116,36 @@
       "nameIt": "Planata",
       "teacher": "Dragonite",
       "howTo": "Si impara da Dragonite a Sparkling Skylands",
-      "use": "Plana tra dirupi e isole fluttuanti",
+      "use": "Plana tra dirupi e isole fluttuanti: da lì in poi uno dei modi principali di spostarsi",
       "verified": true
+    },
+    {
+      "id": "waterfall",
+      "name": "Waterfall",
+      "nameIt": "Cascata",
+      "teacher": "Gyarados",
+      "howTo": "Sparkling Skylands: Gyarados è nascosto SOTTO le cascate dell'area",
+      "use": "Risali le cascate a nuoto — ricorda che ogni cascata nasconde una grotta",
+      "verified": false
+    },
+    {
+      "id": "magnet-rise",
+      "name": "Magnet Rise",
+      "nameIt": "Magnetascesa",
+      "teacher": "Magnemite",
+      "howTo": "Post-game (dopo i titoli di coda): costruisci l'habitat 'deposito di fabbrica' di Magnemite",
+      "use": "Levitazione magnetica: la trasformazione finale e più potente del gioco",
+      "verified": false
+    },
+    {
+      "id": "dive",
+      "name": "Dive",
+      "nameIt": "Sub",
+      "teacher": "Manaphy",
+      "howTo": "Aggiunto con l'update gratuito 2.0.0: dopo Surf, Tangrowth indica un'isola a nord-ovest — Manaphy chiede 5 Seaweed (abbondanti a Bleak Beach)",
+      "use": "Respira e costruisci sott'acqua, interagisci coi Pokémon marini. Indispensabile per il cancello del Fondale Bolleblub",
+      "verified": false
     }
   ],
-  "note": "Mancano ~8 mosse al censimento: si aggiungono man mano che le sblocchi (screenshot del menu mosse)."
+  "note": "Censimento COMPLETO delle 14 trasformazioni del gioco base + Dive (2.0.0) + Inhale (abilità base). Ordine ≈ di sblocco: Withered Wasteland (Water Gun, Leafage, Cut, Rock Smash, Rototiller, Jump) → Bleak Beach (Surf, Camouflage, Suck Up Liquids) → Rocky Ridges (Rollout, Strength) → Sparkling Skylands (Glide, Waterfall) → post-game (Magnet Rise). Gli insegnanti 'da confermare' si verificano con gli screenshot del menu mosse."
 }

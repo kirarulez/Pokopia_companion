@@ -130,7 +130,8 @@
       html += '<div class="card"><h2>' + esc(a.name) + ' <span class="badge">' + esc(a.nameIt) + '</span>';
       if (repo.unlocked) html += ' <span class="badge v">sbloccata</span>';
       html += '</h2>';
-      html += '<p class="muted">' + esc(a.kantoBase) + ' · Sblocco: ' + esc(a.unlock.rank ? a.unlock.rank + ' Rank' : 'dall\'inizio') + '</p>';
+      var unlockTxt = [a.unlock.rank ? a.unlock.rank + ' Rank' : null, a.unlock.note].filter(Boolean).join(' — ') || 'dall\'inizio';
+      html += '<p class="muted">' + esc(a.kantoBase) + ' · Sblocco: ' + esc(unlockTxt) + '</p>';
       html += '<h3>🎯 Main quest: ' + esc(a.mainQuest.title) + '</h3>';
       html += '<ul>' + a.mainQuest.requirements.map(function (r) { return '<li>' + esc(r) + '</li>'; }).join('') + '</ul>';
       html += '<p class="muted">Ricompensa: ' + esc(a.mainQuest.reward) + '</p>';
@@ -254,6 +255,57 @@
     el.innerHTML = html;
   }
 
+  // ---------- Tab: Tips & Tricks ----------
+  function renderTips() {
+    var el = document.getElementById('tab-tips');
+    if (!el || !D.tips) return;
+    var html = '<div class="card"><h2>💡 Tips &amp; Tricks</h2>' +
+      '<p class="muted">' + esc(D.tips._schema) + '</p></div>';
+    D.tips.categories.forEach(function (cat) {
+      html += '<div class="card"><h2>' + esc(cat.title) + '</h2><ul>';
+      cat.tips.forEach(function (t) {
+        html += '<li>' + esc(t.text) +
+          ' <span class="muted">— ' + esc(t.source) + '</span> ' + vBadge(t.verified) + '</li>';
+      });
+      html += '</ul></div>';
+    });
+    el.innerHTML = html;
+  }
+
+  // ---------- Tab: Progetti ----------
+  var SOURCE_ICON = { guida: '📖', video: '🎬', screenshot: '🖼️' };
+  function renderProgetti() {
+    var el = document.getElementById('tab-progetti');
+    if (!el || !D.projects) return;
+    var html = '<div class="card"><h2>🏗️ Progetti &amp; ispirazione</h2>' +
+      '<p class="muted">' + esc(D.projects._schema) + '</p></div>';
+    D.projects.categories.forEach(function (cat) {
+      var projs = D.projects.projects.filter(function (p) { return p.category === cat.id; });
+      if (!projs.length) return;
+      html += '<div class="card"><h2>' + esc(cat.title) + '</h2>';
+      projs.forEach(function (p) {
+        html += '<div class="step"><div style="width:100%">';
+        html += '<div class="title">' + esc(p.name) + ' ' + vBadge(p.verified) + '</div>';
+        html += '<div class="detail">' + esc(p.description) + '<br>';
+        if (p.materials) {
+          html += '🧱 ' + p.materials.map(function (m) {
+            return m.qty + '× ' + esc(m.item) + (m.note ? ' (' + esc(m.note) + ')' : '');
+          }).join(', ') + '<br>';
+        }
+        if (p.steps) {
+          html += '<ol>' + p.steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>';
+        }
+        html += (p.sources || []).map(function (s) {
+          return (SOURCE_ICON[s.type] || '🔗') + ' <a href="' + esc(s.url).replace(/"/g, '&quot;') +
+            '" target="_blank" rel="noopener">' + esc(s.label) + '</a>';
+        }).join('<br>');
+        html += '</div></div></div>';
+      });
+      html += '</div>';
+    });
+    el.innerHTML = html;
+  }
+
   // ---------- Tab: Stato ----------
   function renderStato() {
     var el = document.getElementById('tab-stato');
@@ -344,6 +396,8 @@
     renderGuida();
     renderAree();
     renderFarming();
+    renderTips();
+    renderProgetti();
     renderStato();
     renderHabitat();
   }
