@@ -1,0 +1,99 @@
+/* Pokopia Companion — tema scuro con accento giallo Pokémon */
+:root {
+  --bg: #12141c;
+  --panel: #1b1e2a;
+  --panel2: #232738;
+  --border: #303550;
+  --text: #e8eaf2;
+  --muted: #9aa0b8;
+  --accent: #ffcb05;
+  --accent2: #4fc3f7;
+  --ok: #66bb6a;
+  --warn: #ffa726;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+.topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 16px 20px; background: var(--panel); border-bottom: 2px solid var(--accent);
+  flex-wrap: wrap;
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.logo { font-size: 30px; }
+h1 { margin: 0; font-size: 22px; }
+.subtitle { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.rankbox { text-align: right; font-size: 14px; color: var(--muted); }
+.rankbox b { color: var(--accent); font-size: 16px; }
+
+.tabs { display: flex; gap: 6px; padding: 10px 16px; background: var(--panel); flex-wrap: wrap; }
+.tabs button {
+  background: var(--panel2); color: var(--text); border: 1px solid var(--border);
+  border-radius: 999px; padding: 8px 16px; cursor: pointer; font-size: 14px;
+}
+.tabs button.active { background: var(--accent); color: #1b1b1b; font-weight: 700; border-color: var(--accent); }
+
+main { max-width: 1080px; margin: 0 auto; padding: 20px 16px 60px; }
+.tab { display: none; }
+.tab.active { display: block; }
+
+.card {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px 18px; margin-bottom: 16px;
+}
+.card h2 { margin: 0 0 6px; font-size: 18px; color: var(--accent); }
+.card h3 { margin: 14px 0 6px; font-size: 15px; color: var(--accent2); }
+.card.next { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.muted { color: var(--muted); font-size: 13px; }
+
+.progressbar { height: 10px; background: var(--panel2); border-radius: 999px; overflow: hidden; margin: 8px 0 4px; }
+.progressbar > div { height: 100%; background: linear-gradient(90deg, var(--accent), var(--warn)); }
+
+.step { display: flex; gap: 10px; padding: 8px 6px; border-radius: 8px; align-items: flex-start; }
+.step:hover { background: var(--panel2); }
+.step input[type="checkbox"] { margin-top: 4px; width: 17px; height: 17px; accent-color: var(--accent); flex: none; }
+.step.locked { opacity: 0.45; }
+.step .title { font-weight: 600; }
+.step .detail { color: var(--muted); font-size: 13px; }
+.step.done .title { text-decoration: line-through; color: var(--muted); }
+
+.badge {
+  display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px;
+  background: var(--panel2); border: 1px solid var(--border); color: var(--muted); margin-left: 6px;
+}
+.badge.v { color: var(--ok); border-color: var(--ok); }
+.badge.nv { color: var(--warn); border-color: var(--warn); }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+th { color: var(--accent2); font-weight: 600; }
+.tablewrap { overflow-x: auto; }
+
+ul { margin: 6px 0; padding-left: 20px; }
+li { margin: 3px 0; }
+
+.filters { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.filters input, .filters select, .stato select {
+  background: var(--panel2); color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 10px; font-size: 14px;
+}
+.filters input { flex: 1; min-width: 180px; }
+
+button.action {
+  background: var(--accent); color: #1b1b1b; border: none; border-radius: 8px;
+  padding: 9px 16px; font-weight: 700; cursor: pointer; font-size: 14px; margin: 4px 6px 4px 0;
+}
+button.action.secondary { background: var(--panel2); color: var(--text); border: 1px solid var(--border); }
+button.action.danger { background: #5c2b2b; color: #ffb4b4; border: 1px solid #a94444; }
+
+footer { max-width: 1080px; margin: 0 auto; padding: 0 16px 40px; color: var(--muted); font-size: 12.5px; }
+footer code { background: var(--panel2); padding: 1px 5px; border-radius: 4px; }
+
+@media (max-width: 640px) {
+  .topbar { flex-direction: column; align-items: flex-start; }
+  .rankbox { text-align: left; }
+}

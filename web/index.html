@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokopia Companion — guida interattiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🟡</span>
+      <div>
+        <h1>Pokopia Companion</h1>
+        <p class="subtitle">Guida passo-passo · looting · farming · habitat · costruzioni</p>
+      </div>
+    </div>
+    <div class="rankbox" id="rankbox"></div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="guida" class="active">🧭 Guida</button>
+    <button data-tab="aree">🗺️ Aree &amp; Loot</button>
+    <button data-tab="habitat">🏞️ Habitat</button>
+    <button data-tab="farming">🌱 Farming &amp; Cucina</button>
+    <button data-tab="stato">💾 Stato</button>
+  </nav>
+
+  <main>
+    <section id="tab-guida" class="tab active"></section>
+    <section id="tab-aree" class="tab"></section>
+    <section id="tab-habitat" class="tab"></section>
+    <section id="tab-farming" class="tab"></section>
+    <section id="tab-stato" class="tab"></section>
+  </main>
+
+  <footer>
+    <p>Il progresso è salvato in questo browser (localStorage). Per la correzione del tiro via screenshot:
+    carica gli screen in una sessione Claude Code sulla repo — la skill <code>pokopia-screenshot</code>
+    aggiorna <code>progress/progress.json</code> e questo companion al build successivo.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "_schema": "Guida passo-passo. Ogni step: id univoco, phase, area, tags, prereqs (id di step da completare prima). L'engine suggerisce i primi step non fatti con prerequisiti soddisfatti.",
+  "phases": [
+    { "id": "p1", "title": "Fase 1 — Fondamenta (Withered Wasteland)", "goal": "Imparare le meccaniche base e raggiungere il Great Rank" },
+    { "id": "p2", "title": "Fase 2 — Luce sulla costa (Bleak Beach)", "goal": "Riportare l'elettricità e svegliare Mosslax" },
+    { "id": "p3", "title": "Fase 3 — Cucina e musica (Rocky Ridges)", "goal": "Sbloccare la cucina completa e chiudere l'area" },
+    { "id": "p4", "title": "Fase 4 — Verso il cielo (Sparkling Skylands)", "goal": "Ultra Rank, il grattacielo e Mewtwo" },
+    { "id": "p5", "title": "Fase 5 — Completamento e creatività", "goal": "Habitat Dex, Pokédex e Palette Town" }
+  ],
+  "steps": [
+    { "id": "ww-01", "phase": "p1", "area": "withered-wasteland", "tags": ["quest"], "prereqs": [], "title": "Crea il personaggio e parla con il Professor Tangrowth", "detail": "Tutorial iniziale: personalizza il tuo Ditto umano e segui Tangrowth." },
+    { "id": "ww-02", "phase": "p1", "area": "withered-wasteland", "tags": ["quest"], "prereqs": ["ww-01"], "title": "Recupera il Pokédex dalla carriola", "detail": "Interagisci con il punto dorato luccicante sulla carriola: il Pokédex è l'hub delle richieste." },
+    { "id": "ww-03", "phase": "p1", "area": "withered-wasteland", "tags": ["quest", "mossa"], "prereqs": ["ww-02"], "title": "Incontra Squirtle e impara Water Gun", "detail": "Segui Tangrowth fino al punto panoramico e scendi le scale: trovi Squirtle svenuto." },
+    { "id": "ww-04", "phase": "p1", "area": "withered-wasteland", "tags": ["loot"], "prereqs": ["ww-03"], "title": "Saccheggia la Central Plaza con Inhale", "detail": "Tieni premuto Y e aspira TUTTO: Wood, Stone, Berries. Alimenta i primi craft." },
+    { "id": "ww-05", "phase": "p1", "area": "withered-wasteland", "tags": ["habitat"], "prereqs": ["ww-04"], "title": "Costruisci il primo habitat: Erba Alta", "detail": "Servono solo 4 Tall Grass, facilissime da trovare nell'area di partenza." },
+    { "id": "ww-06", "phase": "p1", "area": "withered-wasteland", "tags": ["mossa"], "prereqs": ["ww-04"], "title": "Trova Drilbur e impara Rototiller", "detail": "Vai a EST della plaza fino al letto del fiume secco: Drilbur scava vicino a un gruppo di rocce. Rototiller sblocca il farming." },
+    { "id": "ww-07", "phase": "p1", "area": "withered-wasteland", "tags": ["farm"], "prereqs": ["ww-06"], "title": "Avvia la prima farm di Fagioli", "detail": "Compra Bean Seeds al PC Shop (50 LC / 5 sacchetti), ara con Rototiller, innaffia con Water Gun." },
+    { "id": "ww-08", "phase": "p1", "area": "withered-wasteland", "tags": ["build", "quest"], "prereqs": ["ww-05"], "title": "Ricostruisci il Pokémon Center", "detail": "Richiesto per la progressione dell'area. Fornisci i materiali e lascia lavorare i Pokémon (tempo reale)." },
+    { "id": "ww-09", "phase": "p1", "area": "withered-wasteland", "tags": ["economia"], "prereqs": ["ww-08"], "title": "Attiva il loop giornaliero delle PC Challenges", "detail": "Riscuoti le Challenge al PC (reset 5:00): è la fonte principale di Life Coins." },
+    { "id": "ww-10", "phase": "p1", "area": "withered-wasteland", "tags": ["economia"], "prereqs": ["ww-09"], "title": "Acquisti prioritari: Packing Tips e Handy Bag", "detail": "Gli upgrade di inventario sono i migliori primi acquisti al PC Shop." },
+    { "id": "ww-11", "phase": "p1", "area": "withered-wasteland", "tags": ["quest"], "prereqs": ["ww-08"], "title": "Completa le 2 Important Request dell'area", "detail": "Le trovi nel Pokédex. Insieme al Pokémon Center e all'Environment Level sono il gate di progressione." },
+    { "id": "ww-12", "phase": "p1", "area": "withered-wasteland", "tags": ["quest", "rank"], "prereqs": ["ww-11"], "title": "Alza l'Environment Level e ottieni il Great Rank", "detail": "Più habitat + comfort + restauro = Environment Level. Il Great Rank sblocca Bleak Beach e Rocky Ridges." },
+
+    { "id": "bb-01", "phase": "p2", "area": "bleak-beach", "tags": ["quest"], "prereqs": ["ww-12"], "title": "Entra a Bleak Beach e incontra Meowth", "detail": "Rovine di Vermilion City al buio: Meowth è il quest giver dell'area." },
+    { "id": "bb-02", "phase": "p2", "area": "bleak-beach", "tags": ["habitat"], "prereqs": ["bb-01"], "title": "Costruisci Hydrated Yellow Tall Grass → Piplup", "detail": "L'habitat attira Piplup, indispensabile per la quest del fango." },
+    { "id": "bb-03", "phase": "p2", "area": "bleak-beach", "tags": ["quest"], "prereqs": ["bb-02"], "title": "Pulisci il fango dalla casa di Meowth", "detail": "Fai spruzzare le bolle a Piplup sul fango e lavalo via con Water Gun." },
+    { "id": "bb-04", "phase": "p2", "area": "bleak-beach", "tags": ["habitat"], "prereqs": ["bb-01"], "title": "Costruisci Breezy Flower Bed → Pawmi", "detail": "L'habitat attira Pawmi, che sa accendere i lampioni." },
+    { "id": "bb-05", "phase": "p2", "area": "bleak-beach", "tags": ["quest"], "prereqs": ["bb-04"], "title": "Accendi i 3 lampioni + il lampione del cancello", "detail": "Usa Pawmi (o Pawmo/Mareep se già amici) sui lampioni indicati da Meowth." },
+    { "id": "bb-06", "phase": "p2", "area": "bleak-beach", "tags": ["quest"], "prereqs": ["bb-03", "bb-05"], "title": "Ripristina l'elettricità della città", "detail": "Completa la catena 'Brighten Things Up' per illuminare il porto." },
+    { "id": "bb-07", "phase": "p2", "area": "bleak-beach", "tags": ["quest"], "prereqs": ["bb-06"], "title": "Accumula 100 Bloom Points e sveglia Mosslax", "detail": "Restaura l'area (habitat, fiori, comfort) fino a 100 Bloom Points." },
+    { "id": "bb-08", "phase": "p2", "area": "bleak-beach", "tags": ["farm"], "prereqs": ["bb-01"], "title": "Sblocca e coltiva i Pomodori", "detail": "Alza l'Environment Level di Bleak Beach, poi compra Tomato Seeds (40 LC / 5). Richiedono Water Gun." },
+
+    { "id": "rr-01", "phase": "p3", "area": "rocky-ridges", "tags": ["quest"], "prereqs": ["ww-12"], "title": "Esplora Rocky Ridges e incontra Chef Dente", "detail": "Il Greedent cuoco è l'hub del sistema cucina avanzato." },
+    { "id": "rr-02", "phase": "p3", "area": "rocky-ridges", "tags": ["quest"], "prereqs": ["rr-01"], "title": "Trova DJ Rotom", "detail": "Il Radio Rotom alza il mood dell'area: cercalo e attivalo." },
+    { "id": "rr-03", "phase": "p3", "area": "rocky-ridges", "tags": ["loot", "farm"], "prereqs": ["rr-01"], "title": "Procurati il Grano", "detail": "Regali dei Pokémon, Poké Ball rosse e spruzzi d'acqua: niente shop per ora. È la base del pane." },
+    { "id": "rr-04", "phase": "p3", "area": "rocky-ridges", "tags": ["build"], "prereqs": ["rr-01"], "title": "Costruisci tutte le stazioni di cucina", "detail": "Tagliere (insalate), Pentola+Fornello (zuppe), Forno del Pane (acceso!), Padella+Fornello (hamburger steak)." },
+    { "id": "rr-05", "phase": "p3", "area": "rocky-ridges", "tags": ["farm"], "prereqs": ["rr-03", "rr-04"], "title": "Cucina le 4 categorie base", "detail": "Insalata (base Leaf), Zuppa (base Fresh Water), Pane (base Wheat), Hamburger Steak (base Beans). Il cibo ripristina PP e alza il comfort." },
+    { "id": "rr-06", "phase": "p3", "area": "rocky-ridges", "tags": ["quest", "rank"], "prereqs": ["rr-02", "rr-05"], "title": "Completa la main quest di Rocky Ridges", "detail": "Chiudi le richieste principali dell'area: con tutte e 3 le aree fatte arriva l'Ultra Rank." },
+
+    { "id": "ss-01", "phase": "p4", "area": "sparkling-skylands", "tags": ["quest", "rank"], "prereqs": ["bb-07", "rr-06"], "title": "Ottieni l'Ultra Rank ed entra a Sparkling Skylands", "detail": "Serve la main quest completata in tutte e 3 le aree precedenti." },
+    { "id": "ss-02", "phase": "p4", "area": "sparkling-skylands", "tags": ["mossa"], "prereqs": ["ss-01"], "title": "Impara Glide da Dragonite", "detail": "Prima cosa da fare nell'area: la planata cambia l'esplorazione tra le isole." },
+    { "id": "ss-03", "phase": "p4", "area": "sparkling-skylands", "tags": ["quest"], "prereqs": ["ss-01"], "title": "Parla con Tinkmaster: 'Rebuild the Huge Building'", "detail": "La Tinkaton ingegnere ti chiede 6 Concrete per iniziare la ricostruzione del grattacielo." },
+    { "id": "ss-04", "phase": "p4", "area": "sparkling-skylands", "tags": ["loot"], "prereqs": ["ss-03"], "title": "Raccogli Limestone nelle zone designate", "detail": "Il calcare è l'ingrediente del Concrete." },
+    { "id": "ss-05", "phase": "p4", "area": "sparkling-skylands", "tags": ["habitat"], "prereqs": ["ss-03"], "title": "Costruisci il Construction-Site Generator → Conkeldurr", "detail": "L'habitat attira Conkeldurr, che ti dà la ricetta del Concrete Mixer e aiuta in produzione." },
+    { "id": "ss-06", "phase": "p4", "area": "sparkling-skylands", "tags": ["build"], "prereqs": ["ss-05"], "title": "Costruisci il Concrete Mixer VICINO all'acqua", "detail": "Servono 2 Iron Ingots. La vicinanza all'acqua è obbligatoria." },
+    { "id": "ss-07", "phase": "p4", "area": "sparkling-skylands", "tags": ["build", "quest"], "prereqs": ["ss-04", "ss-06"], "title": "Produci 6 Concrete e consegnali a Tinkmaster", "detail": "Con l'aiuto di Conkeldurr al mixer." },
+    { "id": "ss-08", "phase": "p4", "area": "sparkling-skylands", "tags": ["build", "quest"], "prereqs": ["ss-07"], "title": "Completa i 3 piani del grattacielo", "detail": "Ricostruzione piano per piano dell'ex Celadon Department Store, guidata da Tinkmaster." },
+    { "id": "ss-09", "phase": "p4", "area": "sparkling-skylands", "tags": ["quest", "rank"], "prereqs": ["ss-08"], "title": "Tetto: Master Ball e Mewtwo → Master Rank", "detail": "Prendi l'ascensore fino in cima: sul tetto trovi la Master Ball e incontri Mewtwo." },
+
+    { "id": "comp-01", "phase": "p5", "area": null, "tags": ["habitat"], "prereqs": ["ww-12"], "title": "Habitat Dex: scopri i 213 habitat", "detail": "Segui le tracce dei Pokémon, sperimenta combinazioni di materiali e spunta il catalogo nella tab Habitat." },
+    { "id": "comp-02", "phase": "p5", "area": null, "tags": ["quest"], "prereqs": ["ss-09"], "title": "Completa il Pokédex di Pokopia", "detail": "Ogni habitat attira specie diverse: incrocia il catalogo habitat con le specie mancanti." },
+    { "id": "comp-03", "phase": "p5", "area": null, "tags": ["farm"], "prereqs": ["rr-06"], "title": "Ottimizza le farm: fertilizzante + sprinkler", "detail": "Setup avanzato dei campi per rese massime e comfort dei Pokémon a regime." },
+    { "id": "pt-01", "phase": "p5", "area": "palette-town", "tags": ["build"], "prereqs": ["ww-05"], "title": "Palette Town: costruzione libera", "detail": "Sandbox senza vincoli di terreno: usala come banco di prova per i layout." },
+    { "id": "pt-02", "phase": "p5", "area": "palette-town", "tags": ["build"], "prereqs": ["pt-01"], "title": "Cloud Islands: co-op fino a 4 giocatori", "detail": "La zona multiplayer condivisa per costruire con gli amici." }
+  ]
+}

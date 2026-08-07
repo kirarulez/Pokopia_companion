@@ -1,0 +1,45 @@
+name: Pokopia Guide
+
+# Quando il progresso viene aggiornato (push da una sessione Claude Code dopo
+# l'analisi degli screenshot), invia su Telegram i prossimi passi consigliati.
+on:
+  push:
+    paths:
+      - 'progress/**'
+      - 'data/roadmap.json'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Stampa il messaggio senza inviarlo su Telegram'
+        type: boolean
+        default: false
+
+concurrency:
+  group: pokopia-guide
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  next-steps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Nessun npm install: gli script Pokopia usano solo Node standard (fetch nativo).
+      - name: Valida i dati
+        run: npm run verify
+
+      - name: Invia i prossimi passi su Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '' }}
+        run: node src/next-steps.js --telegram

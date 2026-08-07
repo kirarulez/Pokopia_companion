@@ -1,0 +1,20 @@
+{
+  "_schema": "Stato della partita. Aggiornato dalla skill 'pokopia-screenshot' (analisi screenshot in sessione Claude Code) o a mano. La web app lo incorpora al build e permette import/export.",
+  "player": "marcone",
+  "updatedAt": "2026-08-07T00:00:00Z",
+  "trainerRank": "Nessuno (inizio partita)",
+  "currentArea": "withered-wasteland",
+  "areas": {
+    "withered-wasteland": { "unlocked": true, "envLevel": 0, "mainQuestDone": false },
+    "bleak-beach": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
+    "rocky-ridges": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
+    "sparkling-skylands": { "unlocked": false, "envLevel": 0, "mainQuestDone": false },
+    "palette-town": { "unlocked": true, "envLevel": 0, "mainQuestDone": false }
+  },
+  "lifeCoins": null,
+  "stepsDone": [],
+  "habitatsBuilt": [],
+  "movesLearned": ["inhale"],
+  "inventoryNotes": [],
+  "screenshotLog": []
+}

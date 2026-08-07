@@ -1,0 +1,16 @@
+{
+  "name": "pokopia-companion",
+  "version": "1.0.0",
+  "description": "Guida interattiva per Pokémon Pokopia (Nintendo Switch 2): roadmap passo-passo, looting, farming, Habitat Dex e correzione del tiro via screenshot con notifiche Telegram.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build-data.js",
+    "verify": "node src/build-data.js --verify",
+    "next": "node src/next-steps.js",
+    "check": "node --check src/engine.js && node --check src/build-data.js && node --check src/next-steps.js && node --check src/lib/telegram.js && node --check src/lib/http.js && node --check src/lib/logger.js && node --check web/app.js && node src/build-data.js --verify && echo 'check OK'"
+  }
+}

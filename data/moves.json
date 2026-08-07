@@ -1,0 +1,61 @@
+{
+  "_schema": "Le 14 mosse/trasformazioni di Ditto in Pokopia. Si imparano dai Pokémon incontrati (a volte dopo una richiesta). Le voci con 'verified': false o teacher null vanno completate con gli screenshot.",
+  "totalInGame": 14,
+  "moves": [
+    {
+      "id": "inhale",
+      "name": "Inhale",
+      "nameIt": "Aspira",
+      "teacher": null,
+      "howTo": "Disponibile da subito — tieni premuto Y",
+      "use": "Aspira risorse sparse (legno, pietra, bacche): il looting di base",
+      "verified": true
+    },
+    {
+      "id": "water-gun",
+      "name": "Water Gun",
+      "nameIt": "Pistolacqua",
+      "teacher": "Squirtle",
+      "howTo": "Primo potere della storia: lo impari dallo Squirtle svenuto nella Withered Wasteland",
+      "use": "Innaffiare colture, pulire fango/sporco, riempire d'acqua",
+      "verified": true
+    },
+    {
+      "id": "rototiller",
+      "name": "Rototiller",
+      "nameIt": "Aratura",
+      "teacher": "Drilbur",
+      "howTo": "Parla con Drilbur nel letto del fiume secco a EST della Central Plaza",
+      "use": "Ara il terreno: sblocca l'intero sistema farming",
+      "verified": true
+    },
+    {
+      "id": "cut",
+      "name": "Cut",
+      "nameIt": "Taglio",
+      "teacher": "Scyther",
+      "howTo": "Si impara da Scyther",
+      "use": "Taglia tronchi ed erba",
+      "verified": true
+    },
+    {
+      "id": "suck",
+      "name": "Suck",
+      "nameIt": "Risucchio",
+      "teacher": null,
+      "howTo": "Da confermare",
+      "use": "Sposta l'acqua da un punto all'altro (terraforming idrico)",
+      "verified": false
+    },
+    {
+      "id": "glide",
+      "name": "Glide",
+      "nameIt": "Planata",
+      "teacher": "Dragonite",
+      "howTo": "Si impara da Dragonite a Sparkling Skylands",
+      "use": "Plana tra dirupi e isole fluttuanti",
+      "verified": true
+    }
+  ],
+  "note": "Mancano ~8 mosse al censimento: si aggiungono man mano che le sblocchi (screenshot del menu mosse)."
+}

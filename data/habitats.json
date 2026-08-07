@@ -1,0 +1,144 @@
+{
+  "_schema": "Habitat Dex di Pokopia — nel gioco ce ne sono 213 documentati. Questo è il set iniziale curato: si estende man mano con gli screenshot delle tue scoperte (tracce dei Pokémon). 'materials': null = ricetta da scoprire. 'verified': false = dato da confermare in gioco.",
+  "totalInGame": 213,
+  "habitats": [
+    {
+      "id": "tall-grass",
+      "name": "Tall Grass",
+      "nameIt": "Erba Alta",
+      "category": "erba",
+      "materials": [{ "item": "Tall Grass", "qty": 4 }],
+      "attracts": ["Pokémon comuni di prato delle prime ore"],
+      "areaHint": "withered-wasteland",
+      "priority": 1,
+      "notes": "Il PRIMO habitat da costruire in assoluto: materiali facilissimi da trovare nell'area di partenza.",
+      "verified": true
+    },
+    {
+      "id": "tall-grass-water",
+      "name": "Tall Grass with Water",
+      "nameIt": "Erba Alta con Acqua",
+      "category": "erba",
+      "materials": [
+        { "item": "Tall Grass", "qty": 4 },
+        { "item": "Water (tile)", "qty": 2, "note": "adiacenti all'erba" }
+      ],
+      "attracts": ["Pokémon di prato/acqua"],
+      "areaHint": "withered-wasteland",
+      "priority": 2,
+      "notes": "Variante dell'Erba Alta con 2 tile d'acqua a fianco.",
+      "verified": true
+    },
+    {
+      "id": "hydrated-yellow-tall-grass",
+      "name": "Hydrated Yellow Tall Grass",
+      "nameIt": "Erba Alta Gialla Idratata",
+      "category": "erba",
+      "materials": null,
+      "attracts": ["Piplup"],
+      "areaHint": "bleak-beach",
+      "priority": 3,
+      "notes": "Necessario per la main quest di Bleak Beach: Piplup aiuta a pulire il fango con le bolle.",
+      "verified": false
+    },
+    {
+      "id": "breezy-flower-bed",
+      "name": "Breezy Flower Bed",
+      "nameIt": "Aiuola Ventilata",
+      "category": "fiori",
+      "materials": null,
+      "attracts": ["Pawmi"],
+      "areaHint": "bleak-beach",
+      "priority": 3,
+      "notes": "Necessario per la main quest di Bleak Beach: Pawmi accende i lampioni.",
+      "verified": false
+    },
+    {
+      "id": "flower-field",
+      "name": "Flower Field",
+      "nameIt": "Campo di Fiori",
+      "category": "fiori",
+      "materials": [
+        { "item": "Wood Planks", "qty": 20 },
+        { "item": "Flowers (misti)", "qty": 25 },
+        { "item": "Tall Grass", "qty": 10 },
+        { "item": "Honey", "qty": 5 }
+      ],
+      "attracts": ["Pokémon insetto/fata da prato fiorito"],
+      "areaHint": null,
+      "priority": 4,
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "stone-water-habitat",
+      "name": "Stone & Water Habitat",
+      "nameIt": "Habitat Acqua e Pietra",
+      "category": "acqua",
+      "materials": [
+        { "item": "Stone Bricks", "qty": 20 },
+        { "item": "Clay", "qty": 15 },
+        { "item": "Water Blocks", "qty": 10 },
+        { "item": "Sand", "qty": 5 }
+      ],
+      "attracts": ["Pokémon acquatici"],
+      "areaHint": "bleak-beach",
+      "priority": 4,
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "pond",
+      "name": "Pond",
+      "nameIt": "Stagno",
+      "category": "acqua",
+      "materials": [
+        { "item": "Wood Planks", "qty": 20 },
+        { "item": "Clay", "qty": 15 },
+        { "item": "Water Blocks", "qty": 10 },
+        { "item": "Tall Grass", "qty": 10 }
+      ],
+      "attracts": ["Pokémon semi-acquatici"],
+      "areaHint": null,
+      "priority": 4,
+      "notes": "",
+      "verified": false
+    },
+    {
+      "id": "vegetable-field",
+      "name": "Vegetable Field",
+      "nameIt": "Orto",
+      "category": "farm",
+      "materials": null,
+      "attracts": ["Pokémon attratti dalle coltivazioni"],
+      "areaHint": "withered-wasteland",
+      "priority": 3,
+      "notes": "Legato al farming: i raccolti (fagioli/pomodori/grano) contano per gli habitat agricoli.",
+      "verified": false
+    },
+    {
+      "id": "construction-site-generator",
+      "name": "Construction-Site Generator",
+      "nameIt": "Generatore da Cantiere",
+      "category": "urbano",
+      "materials": null,
+      "attracts": ["Conkeldurr"],
+      "areaHint": "sparkling-skylands",
+      "priority": 5,
+      "notes": "Necessario per la main quest di Sparkling Skylands (catena del Concrete).",
+      "verified": false
+    },
+    {
+      "id": "campsite",
+      "name": "Campsite",
+      "nameIt": "Campeggio",
+      "category": "urbano",
+      "materials": null,
+      "attracts": ["Pokémon 'da campeggio'"],
+      "areaHint": null,
+      "priority": 6,
+      "notes": "Molti habitat avanzati usano requisiti jolly tipo 'Seat (any)' o 'Bed (any)': qualsiasi oggetto della categoria vale.",
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "_schema": "Aree di Pokémon Pokopia. 'verified': false = dato da confermare con screenshot di gioco.",
+  "areas": [
+    {
+      "id": "withered-wasteland",
+      "name": "Withered Wasteland",
+      "nameIt": "Landa Appassita",
+      "kantoBase": "Rovine di una località classica di Kanto (zona di partenza)",
+      "unlock": { "rank": null, "note": "Disponibile dall'inizio del gioco" },
+      "mainQuest": {
+        "title": "Restaura la landa e ricostruisci il Pokémon Center",
+        "requirements": [
+          "Completare 2 Important Request",
+          "Ricostruire il Pokémon Center",
+          "Alzare l'Environment Level dell'area"
+        ],
+        "reward": "Great Rank → sblocca Bleak Beach e Rocky Ridges"
+      },
+      "npcs": [
+        { "name": "Professor Tangrowth", "role": "Guida iniziale e tutorial" },
+        { "name": "Squirtle", "role": "Insegna Water Gun (lo trovi svenuto a inizio storia)" },
+        { "name": "Drilbur", "role": "Insegna Rototiller — letto del fiume secco a EST della plaza" }
+      ],
+      "loot": [
+        { "item": "Wood (Legno)", "where": "Central Plaza e rovine sparse", "method": "Inhale (tieni premuto Y)", "verified": true },
+        { "item": "Stone (Pietra)", "where": "Central Plaza e rovine sparse", "method": "Inhale", "verified": true },
+        { "item": "Berries (Bacche)", "where": "Cespugli e terreno della plaza", "method": "Inhale / raccolta", "verified": true },
+        { "item": "Tall Grass (Erba Alta)", "where": "Campi secchi dell'area di partenza", "method": "Raccolta — servono 4 unità per il primo habitat", "verified": true },
+        { "item": "Bean Seeds (Semi di Fagiolo)", "where": "PC Shop del Pokémon Center", "method": "Acquisto: 50 Life Coins per 5 sacchetti", "verified": true },
+        { "item": "Clay (Argilla)", "where": "Vicino al letto del fiume", "method": "Scavo con Rototiller", "verified": false }
+      ],
+      "tips": [
+        "Aspira TUTTO con Inhale nella Central Plaza appena arrivi: alimenta i primi craft.",
+        "Vai da Drilbur presto: Rototiller sblocca l'intero sistema farming.",
+        "Il primo habitat da costruire è Erba Alta: bastano 4 Tall Grass."
+      ]
+    },
+    {
+      "id": "bleak-beach",
+      "name": "Bleak Beach",
+      "nameIt": "Spiaggia Cupa",
+      "kantoBase": "Rovine di Vermilion City (porto, spiaggia e faro al buio)",
+      "unlock": { "rank": "Great", "note": "Si sblocca completando la main quest della Withered Wasteland" },
+      "mainQuest": {
+        "title": "Brighten Things Up — riporta l'elettricità e sveglia Mosslax",
+        "requirements": [
+          "Ripulire il fango dalla casa di Meowth (bolle di Piplup + Water Gun)",
+          "Accendere i 3 lampioni + lampione del cancello (Pawmi/Pawmo/Mareep)",
+          "Ripristinare l'elettricità della città",
+          "Accumulare 100 Bloom Points per svegliare Mosslax"
+        ],
+        "reward": "Avanzamento verso Ultra Rank"
+      },
+      "npcs": [
+        { "name": "Meowth", "role": "Quest giver principale dell'area" },
+        { "name": "Piplup", "role": "Attirato dall'habitat Hydrated Yellow Tall Grass — aiuta con le bolle" },
+        { "name": "Pawmi", "role": "Attirato dal Breezy Flower Bed — accende i lampioni" },
+        { "name": "Mosslax", "role": "Snorlax muschioso addormentato: serve 100 Bloom Points" }
+      ],
+      "loot": [
+        { "item": "Sand (Sabbia)", "where": "Spiaggia", "method": "Inhale / scavo", "verified": false },
+        { "item": "Tomato Seeds (Semi di Pomodoro)", "where": "PC Shop, dopo aver alzato l'Environment Level di Bleak Beach", "method": "Acquisto: 40 Life Coins per 5 sacchetti (i pomodori richiedono Water Gun)", "verified": true },
+        { "item": "Fresh Water (Acqua Fresca)", "where": "Fonti d'acqua dell'area", "method": "Raccolta — base per le zuppe", "verified": false },
+        { "item": "Shells / materiali marini", "where": "Bagnasciuga", "method": "Raccolta", "verified": false }
+      ],
+      "tips": [
+        "Costruisci subito Hydrated Yellow Tall Grass per Piplup e Breezy Flower Bed per Pawmi: sono i due sblocchi chiave della quest.",
+        "Se hai già Mareep o Pawmo, puoi usarli al posto di Pawmi per i lampioni."
+      ]
+    },
+    {
+      "id": "rocky-ridges",
+      "name": "Rocky Ridges",
+      "nameIt": "Creste Rocciose",
+      "kantoBase": "Zona montuosa in rovina",
+      "unlock": { "rank": "Great", "note": "Si sblocca completando la main quest della Withered Wasteland (insieme a Bleak Beach)" },
+      "mainQuest": {
+        "title": "Aiuta Chef Dente e riporta la musica con DJ Rotom",
+        "requirements": [
+          "Incontrare Chef Dente (Greedent cuoco) e sbloccare la cucina avanzata",
+          "Trovare DJ Rotom (Radio Rotom) che alza il mood dell'area",
+          "Completare le richieste principali dell'area"
+        ],
+        "reward": "Avanzamento verso Ultra Rank"
+      },
+      "npcs": [
+        { "name": "Chef Dente", "role": "Greedent cuoco — hub del sistema cucina" },
+        { "name": "DJ Rotom", "role": "Radio Rotom — aumenta il mood/comfort dell'area" }
+      ],
+      "loot": [
+        { "item": "Wheat (Grano)", "where": "Regali dei Pokémon, Poké Ball rosse, spruzzi d'acqua", "method": "Raccolta / interazione — ingrediente base del pane", "verified": true },
+        { "item": "Stone / minerali", "where": "Pareti rocciose", "method": "Scavo/estrazione", "verified": false },
+        { "item": "Mushrooms (Funghi)", "where": "Zone umide e grotte", "method": "Raccolta — ingrediente cucina", "verified": false }
+      ],
+      "tips": [
+        "Il grano NON si compra all'inizio: tienilo d'occhio nei regali dei Pokémon e nelle Poké Ball rosse.",
+        "Quest'area è il momento giusto per costruire tutte le stazioni di cucina."
+      ]
+    },
+    {
+      "id": "sparkling-skylands",
+      "name": "Sparkling Skylands",
+      "nameIt": "Cieli Scintillanti",
+      "kantoBase": "Rovine del Celadon Department Store (isole fluttuanti)",
+      "unlock": { "rank": "Ultra", "note": "Serve l'Ultra Rank: completa le main quest di tutte e 3 le altre aree" },
+      "mainQuest": {
+        "title": "Rebuild the Huge Building — ricostruisci il grattacielo con Tinkmaster",
+        "requirements": [
+          "Raccogliere Limestone nelle zone designate",
+          "Costruire l'habitat Construction-Site Generator → attira Conkeldurr",
+          "Costruire il Concrete Mixer vicino all'acqua (2 Iron Ingots)",
+          "Produrre 6 Concrete e consegnarli a Tinkmaster",
+          "Completare i 3 piani del grattacielo"
+        ],
+        "reward": "Sul tetto: Master Ball + incontro con Mewtwo → Master Rank"
+      },
+      "npcs": [
+        { "name": "Dragonite", "role": "Insegna Glide (planata tra le isole e i dirupi)" },
+        { "name": "Tinkmaster", "role": "Tinkaton ingegnere — guida la ricostruzione del grattacielo" },
+        { "name": "Conkeldurr", "role": "Attirato dal Construction-Site Generator — aiuta a produrre Concrete" },
+        { "name": "Mewtwo", "role": "Leggendario sul tetto del grattacielo completato" }
+      ],
+      "loot": [
+        { "item": "Limestone (Calcare)", "where": "Zone designate dell'area", "method": "Estrazione — serve per il Concrete", "verified": true },
+        { "item": "Iron Ingot (Lingotto di Ferro)", "where": "Da minerale di ferro lavorato", "method": "Crafting — ne servono 2 per il Concrete Mixer", "verified": false },
+        { "item": "Concrete (Cemento)", "where": "Concrete Mixer (con l'aiuto di Conkeldurr)", "method": "Produzione — ne servono 6 per Tinkmaster", "verified": true }
+      ],
+      "tips": [
+        "Impara Glide da Dragonite appena arrivi: cambia completamente l'esplorazione.",
+        "Costruisci il Concrete Mixer VICINO all'acqua, altrimenti non funziona."
+      ]
+    },
+    {
+      "id": "palette-town",
+      "name": "Palette Town",
+      "nameIt": "Palette Town (sandbox)",
+      "kantoBase": "Omaggio a Pallet Town — zona creativa",
+      "unlock": { "rank": null, "note": "Disponibile dall'inizio; è la zona sandbox/multiplayer" },
+      "mainQuest": {
+        "title": "Nessuna main quest: costruzione libera",
+        "requirements": [
+          "Terraforming e costruzione senza vincoli di terreno",
+          "Cloud Islands: co-op di costruzione fino a 4 giocatori"
+        ],
+        "reward": "Spazio creativo condiviso"
+      },
+      "npcs": [],
+      "loot": [],
+      "tips": [
+        "Usala come banco di prova per i layout degli habitat prima di costruirli nelle aree principali."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "_schema": "Economia di Pokopia: Life Coins, PC Shop, loop giornaliero.",
+  "currency": "Life Coins",
+  "earnMethods": [
+    { "method": "PC Challenges (anche giornaliere)", "note": "Fonte principale. Vanno RISCOSSE al PC dopo il completamento. Le giornaliere si rinnovano alle 5:00.", "verified": true },
+    { "method": "Stamp Rally", "note": "Sistema a timbri con ricompense in Life Coins", "verified": true },
+    { "method": "Vendita oggetti", "note": "Vendi surplus di materiali e raccolti", "verified": true },
+    { "method": "Alzare l'Environment Level", "note": "Sblocca Challenge aggiuntive (comfort, amicizie, case, richieste)", "verified": true }
+  ],
+  "pcShop": {
+    "where": "PC del Pokémon Center",
+    "sells": ["Mobili", "Ricette", "Semi", "Kit di costruzione (case prefabbricate)"],
+    "rotation": "Stock a rotazione: si rinnova al reset giornaliero (5:00)",
+    "priorityBuys": [
+      { "item": "Packing Tips", "why": "Upgrade inventario: il migliore acquisto early-game", "verified": true },
+      { "item": "Handy Bag", "why": "Upgrade inventario: seconda priorità", "verified": true },
+      { "item": "Bean Seeds", "why": "50 LC per 5 sacchetti: avvia il farming", "verified": true }
+    ]
+  },
+  "buildings": {
+    "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale.",
+    "verified": true
+  },
+  "dailyLoop": [
+    "Riscuoti le PC Challenges giornaliere (reset 5:00)",
+    "Controlla lo stock a rotazione del PC Shop",
+    "Innaffia le colture e raccogli i campi pronti",
+    "Dai da mangiare ai Pokémon per il comfort",
+    "Avvia un progetto di costruzione prima di chiudere: procede in tempo reale"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "_schema": "Sistema farming e cucina di Pokopia. 'verified': false = da confermare con screenshot.",
+  "farmingBasics": [
+    "Il farming si sblocca imparando Rototiller da Drilbur (letto del fiume a est nella Withered Wasteland).",
+    "Ciclo: ara il terreno con Rototiller → pianta i semi → innaffia con Water Gun → raccogli.",
+    "I raccolti servono per la cucina e per gli habitat 'orto' (vegetable field).",
+    "Fertilizzante e sprinkler ottimizzano le farm avanzate (setup end-game)."
+  ],
+  "crops": [
+    {
+      "id": "bean",
+      "name": "Beans",
+      "nameIt": "Fagioli",
+      "unlock": "Primo raccolto disponibile (Withered Wasteland)",
+      "seeds": { "source": "PC Shop del Pokémon Center", "cost": "50 Life Coins per 5 sacchetti" },
+      "needs": ["Rototiller", "acqua"],
+      "usedFor": ["Hamburger Steak (ingrediente base)", "habitat orto"],
+      "verified": true
+    },
+    {
+      "id": "tomato",
+      "name": "Tomatoes",
+      "nameIt": "Pomodori",
+      "unlock": "Dopo aver alzato l'Environment Level di Bleak Beach",
+      "seeds": { "source": "PC Shop", "cost": "40 Life Coins per 5 sacchetti" },
+      "needs": ["Rototiller", "Water Gun (obbligatorio per crescere)"],
+      "usedFor": ["Ricette con pomodoro", "habitat orto"],
+      "verified": true
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "nameIt": "Grano",
+      "unlock": "Rocky Ridges",
+      "seeds": { "source": "Regali dei Pokémon, Poké Ball rosse, spruzzi d'acqua (NON in vendita all'inizio)", "cost": "—" },
+      "needs": ["Rototiller", "acqua"],
+      "usedFor": ["Pane (ingrediente base di tutte le ricette da forno)"],
+      "verified": true
+    },
+    {
+      "id": "duckweed",
+      "name": "Duckweed",
+      "nameIt": "Lenticchia d'acqua",
+      "unlock": "Coltura acquatica",
+      "seeds": { "source": "Da confermare", "cost": "—" },
+      "needs": ["acqua"],
+      "usedFor": ["Ricette/habitat acquatici"],
+      "verified": false
+    }
+  ],
+  "cookingStations": [
+    {
+      "id": "chopping-board",
+      "name": "Chopping Board",
+      "nameIt": "Tagliere",
+      "makes": "Insalate",
+      "baseIngredient": "Leaf (Foglia)",
+      "requires": "Solo il tagliere",
+      "verified": true
+    },
+    {
+      "id": "cooking-pot",
+      "name": "Cooking Pot + Stove",
+      "nameIt": "Pentola + Fornello",
+      "makes": "Zuppe",
+      "baseIngredient": "Fresh Water (Acqua Fresca)",
+      "requires": "Pentola posizionata su un fornello",
+      "verified": true
+    },
+    {
+      "id": "bread-oven",
+      "name": "Bread Oven",
+      "nameIt": "Forno per il Pane",
+      "makes": "Pane e derivati",
+      "baseIngredient": "Wheat (Grano)",
+      "requires": "Forno ACCESO per funzionare",
+      "verified": true
+    },
+    {
+      "id": "frying-pan",
+      "name": "Frying Pan + Stove",
+      "nameIt": "Padella + Fornello",
+      "makes": "Hamburger Steak",
+      "baseIngredient": "Beans (Fagioli)",
+      "requires": "Padella posizionata su un fornello",
+      "verified": true
+    }
+  ],
+  "cookingUses": [
+    "Ripristino PP: il cibo è la risorsa pratica per chi usa spesso le mosse (esplorazione, costruzione, raccolta).",
+    "Comfort dei Pokémon: dai da mangiare per alzare il Comfort Level.",
+    "Preferenze di gusto: ogni Pokémon ha sapori preferiti — il piatto giusto dà più comfort.",
+    "Ingredienti comuni: bacche, raccolti, funghi e materiali naturali trovati esplorando."
+  ]
+}
