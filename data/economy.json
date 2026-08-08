@@ -19,7 +19,7 @@
     ]
   },
   "buildings": {
-    "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale. Update 2.0.0: deposito CONDIVISO tra le città (fino a 140 oggetti) — basta piazzare un contenitore in ogni regione.",
+    "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale. Deposito CONDIVISO tra le città tramite i Portal Pod (arrivati gratis col DLC): 140 stack accessibili da qualsiasi pod, in stile Ender Chest — piazzane uno per regione.",
     "verified": true
   },
   "dailyLoop": [
