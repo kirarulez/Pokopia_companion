@@ -159,6 +159,76 @@
       "verified": false
     },
     {
+      "id": "beautiful-building",
+      "name": "Beautiful Building (Fondale Bolleblub, DLC)",
+      "category": "edifici",
+      "description": "La Important Request di Popplio nel Fondale Bolleblub: completa i materiali del kit che Popplio ha piazzato e raduna 15 Pokémon aiutanti, alcuni dei quali collaborano solo dopo una richiesta dedicata (es. Totodile sul ponte a nord, dopo qualche gioco al parco e una macchina sparabolle da attivare con la specialità Generate).",
+      "materials": [
+        { "item": "Shiny Pearl", "qty": 1, "note": "fai pulire le Grubby Pearl (grotte/zone sabbiose) a un Pokémon con Lucidatura/Scrub, es. Sharpedo" },
+        { "item": "Ocean Door", "qty": 1, "note": "ricetta reperibile in zona" },
+        { "item": "Seashell Fencing", "qty": 1, "note": "ricetta reperibile in zona" }
+      ],
+      "steps": [
+        "Avvia la Important Request 'Build the Beautiful Building' da Popplio",
+        "Procurati Shiny Pearl (via Scrub), Ocean Door e Seashell Fencing",
+        "Convinci i 15 Pokémon indicati: alcuni richiedono mini-quest dedicate prima di aiutare",
+        "Lascia che la squadra costruisca l'edificio"
+      ],
+      "sources": [
+        { "label": "Nintendo Life — Beautiful Building & Pokémon Center walkthrough", "url": "https://www.nintendolife.com/guides/pokemon-pokopia-bubbly-basin-walkthrough-build-the-beautiful-building", "type": "guida" },
+        { "label": "Game8 — Build the Beautiful Building walkthrough", "url": "https://game8.co/games/Pokemon-Pokopia/archives/614463", "type": "guida" }
+      ],
+      "verified": false
+    },
+    {
+      "id": "basin-generators",
+      "name": "Generatori del Fondale: Furnace, Windmill, Waterwheel (DLC)",
+      "category": "edifici",
+      "description": "I tre kit generatore documentati per il Fondale Bolleblub, cuore del nuovo sistema di elettricità subacquea (alimenta sparabolle e lampioni con i Pokémon elettrici).",
+      "materials": [
+        { "item": "Furnace: Iron Ore", "qty": 15, "note": "+ 5 Sea Glass Fragments" },
+        { "item": "Windmill: Lumber", "qty": 5, "note": "+ 5 Twine" },
+        { "item": "Waterwheel: Lumber", "qty": 15, "note": "+ 5 Rocks" }
+      ],
+      "steps": null,
+      "sources": [
+        { "label": "GameFAQs — Bubbly Basin building kit details (liste materiali)", "url": "https://gamefaqs.gamespot.com/switch-2/665508-pokemon-pokopia-bubbly-basin/faqs/82556/building-kit-details", "type": "guida" },
+        { "label": "Serebii — Bubbly Basin locations", "url": "https://www.serebii.net/pokemonpokopia/locations/bubblybasin.shtml", "type": "guida" }
+      ],
+      "verified": false
+    },
+    {
+      "id": "submarine-kit",
+      "name": "Submarine Kit — l'edificio di Sharpedo (DLC)",
+      "category": "edifici",
+      "description": "Il sottomarino/edificio a tema Sharpedo del Fondale Bolleblub: si costruisce con Corphish in una sala con piscina della città sommersa, nell'ambito della storia del Beautiful Building. Corphish dà le informazioni su Sharpedo, Mareanie quelle su Cloyster.",
+      "materials": null,
+      "steps": null,
+      "sources": [
+        { "label": "GameRant — Help Corphish build the Sharpedo Building", "url": "https://gamerant.com/pokopia-sharpedo-building-kit-location/", "type": "guida" },
+        { "label": "GamePretty — Bubbly Basin DLC guide (Sharpedo)", "url": "https://gamepretty.com/pokemon-pokopia-bubbly-basin-dlc-guide-dive-area-gate-sharpedo-habitat-construction-key-quests-new-pokemon-and-ect/", "type": "guida" }
+      ],
+      "verified": false
+    },
+    {
+      "id": "portal-pod",
+      "name": "Portal Pod: deposito collegato tra le regioni",
+      "category": "trasporti",
+      "description": "Lo 'zaino interdimensionale' arrivato gratis col DLC: 140 stack di oggetti accessibili da QUALSIASI Portal Pod, in stile Ender Chest. Quello che depositi in un pod lo ritiri da ogni altro pod, in qualunque regione — la vera soluzione alla logistica dei materiali.",
+      "materials": null,
+      "steps": [
+        "Recupera la ricetta del Portal Pod (vedi guida GamesRadar)",
+        "Crafta un pod e piazzane uno in ogni regione in cui lavori",
+        "Deposita i materiali in un pod qualsiasi: li ritrovi in tutti gli altri"
+      ],
+      "sources": [
+        { "label": "GamesRadar — How to get the Portal Pod recipe", "url": "https://www.gamesradar.com/games/pokemon/pokopia-portal-pod-recipe/", "type": "guida" },
+        { "label": "TheGamer — Where to get more Portal Pods", "url": "https://www.thegamer.com/pokemon-pokopia-bubbly-basin-portal-pod-location-build-use-guide/", "type": "guida" },
+        { "label": "Destructoid — How to find and use Portal Pods", "url": "https://www.destructoid.com/how-to-find-and-use-portal-pod-in-pokopia/", "type": "guida" }
+      ],
+      "verified": false
+    },
+    {
       "id": "railway-minecart",
       "name": "Ferrovia + carrello (Handcar/Minecart)",
       "category": "trasporti",

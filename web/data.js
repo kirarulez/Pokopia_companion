@@ -83,7 +83,7 @@ window.POKOPIA = {
       {
         "id": "bleak-beach",
         "name": "Bleak Beach",
-        "nameIt": "Spiaggia Cupa",
+        "nameIt": "Costa Uggiolina",
         "kantoBase": "Rovine di Vermilion City (porto, spiaggia e faro al buio)",
         "unlock": {
           "rank": "Great",
@@ -277,9 +277,11 @@ window.POKOPIA = {
           "title": "Riporta in vita la città sommersa con Popplio e Corsola",
           "requirements": [
             "Impara Surf da Lapras: compare con la richiesta di Piplup attiva e chiede di ripulire 80 tile di fango",
-            "Impara Dive da Manaphy: isola a nord-ovest indicata da Tangrowth, portagli 5 Seaweed",
+            "Impara Sub (Dive) da Manaphy: dopo la richiesta 'Aumenta il livello di vivibilità generale!' alla Costa Uggiolina, Tangrowth indica un'isola a nord-ovest — portagli 5 Seaweed",
             "Parla con Popplio al Pokémon Center di Bleak Beach e apri il cancello sottomarino a ovest",
             "Completa la catena di richieste di Corsola (bolle di Mudkip → angurie con Corphish → Carvanha)",
+            "Important Request di Popplio: 'Build the Beautiful Building' (Shiny Pearl + Ocean Door + Seashell Fencing + 15 Pokémon aiutanti)",
+            "Ricostruisci il Pokémon Center del Fondale",
             "Porta il Fondale a Environment Level 3 e avvia la richiesta del Sea Temple (Tempio del Mare)"
           ],
           "reward": "36 nuovi habitat, 50 nuovi Pokémon esclusivi, blocchi galleggianti, arredi e costumi marini"
@@ -311,7 +313,11 @@ window.POKOPIA = {
           },
           {
             "name": "Sharpedo",
-            "role": "Attirato dal Chimney Rocks Dig Site (materiali nella piazza della città)"
+            "role": "Attirato dal Chimney Rocks Dig Site — ha la specialità esclusiva Lucidatura (Scrub): pulisce le Grubby Pearl"
+          },
+          {
+            "name": "Totodile",
+            "role": "Sul ponte a nord: dopo qualche gioco al parco aiuta per il Beautiful Building (serve un Pokémon con specialità Generate per la macchina sparabolle)"
           }
         ],
         "loot": [
@@ -368,6 +374,18 @@ window.POKOPIA = {
             "where": "Da trovare/craftare nell'area",
             "method": "Servono per il Mermaid's Gym (Starmie)",
             "verified": false
+          },
+          {
+            "item": "Grubby Pearl (Perla Sporca)",
+            "where": "Soprattutto nelle grotte, a volte in zone sabbiose",
+            "method": "Raccolta — dalle a un Pokémon con Lucidatura (Scrub, es. Sharpedo) per ottenere Shiny Pearl",
+            "verified": false
+          },
+          {
+            "item": "Sea Glass Fragments (Frammenti di Vetro di Mare)",
+            "where": "Fondali dell'area",
+            "method": "Raccolta — servono per la Furnace del Fondale (15 Iron Ore + 5 frammenti)",
+            "verified": false
           }
         ],
         "tips": [
@@ -375,7 +393,8 @@ window.POKOPIA = {
           "Nuovo sistema di elettricità subacquea e macchine sparabolle per pulire il fango: cerca i Pokémon con le specialità giuste.",
           "Gli smoothie (base 2 fette di anguria) potenziano Surf e Dive: sblocca presto il Frullatore con Mudkip.",
           "Con i Buoyant Blocks puoi costruire strutture sospese a diverse altezze: sfrutta la terza dimensione.",
-          "La 2.0.0 aggiunge il deposito condiviso tra le città (140 slot): piazza un contenitore anche qui."
+          "Il deposito condiviso funziona tramite i Portal Pod (arrivati gratis col DLC): quello che metti in un pod si ritira da qualsiasi altro pod, in ogni regione.",
+          "Col Pass di espansione ricevi anche i progetti per blocchi e rotoli con motivo a tutto Ditto, più costumi inediti per Ditto."
         ]
       },
       {
@@ -708,7 +727,7 @@ window.POKOPIA = {
         ],
         "areaHint": "bubbly-basin",
         "priority": 5,
-        "notes": "DLC. Gli oggetti si trovano nella piazza della città sommersa.",
+        "notes": "DLC. Gli oggetti si trovano nella piazza della città sommersa. Sharpedo ha la specialità esclusiva Lucidatura (Scrub): pulisce le Grubby Pearl trasformandole in Shiny Pearl per gli edifici.",
         "verified": false
       },
       {
@@ -1117,7 +1136,7 @@ window.POKOPIA = {
       ]
     },
     "buildings": {
-      "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale. Update 2.0.0: deposito CONDIVISO tra le città (fino a 140 oggetti) — basta piazzare un contenitore in ogni regione.",
+      "note": "I kit-casa comprati al PC Shop si piazzano come progetti (blueprint): i Pokémon li costruiscono in TEMPO REALE con i materiali forniti. Progetti piccoli = poche ore; edifici grandi = quasi un giorno reale. Deposito CONDIVISO tra le città tramite i Portal Pod (arrivati gratis col DLC): 140 stack accessibili da qualsiasi pod, in stile Ender Chest — piazzane uno per regione.",
       "verified": true
     },
     "dailyLoop": [
@@ -1317,8 +1336,13 @@ window.POKOPIA = {
             "verified": true
           },
           {
-            "text": "Piazza un contenitore del deposito condiviso (140 slot, update 2.0.0) in OGNI regione appena arrivi: mai più viaggi per i materiali.",
-            "source": "TechTimes",
+            "text": "Crafta i Portal Pod (gratis col DLC) e piazzane uno in OGNI regione: 140 stack condivisi accessibili da qualsiasi pod, stile Ender Chest — mai più viaggi per i materiali.",
+            "source": "GamesRadar / Destructoid",
+            "verified": false
+          },
+          {
+            "text": "Nuova specialità esclusiva Lucidatura (Scrub, es. Sharpedo): raccogli le Grubby Pearl nelle grotte e zone sabbiose e falle pulire — le Shiny Pearl servono per gli edifici del Fondale.",
+            "source": "Game8 / VGC",
             "verified": false
           },
           {
@@ -1622,6 +1646,136 @@ window.POKOPIA = {
           {
             "label": "Pokopia Guide — Building techniques (tutte le tecniche)",
             "url": "https://pokopiaguide.com/guides/building-techniques",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "beautiful-building",
+        "name": "Beautiful Building (Fondale Bolleblub, DLC)",
+        "category": "edifici",
+        "description": "La Important Request di Popplio nel Fondale Bolleblub: completa i materiali del kit che Popplio ha piazzato e raduna 15 Pokémon aiutanti, alcuni dei quali collaborano solo dopo una richiesta dedicata (es. Totodile sul ponte a nord, dopo qualche gioco al parco e una macchina sparabolle da attivare con la specialità Generate).",
+        "materials": [
+          {
+            "item": "Shiny Pearl",
+            "qty": 1,
+            "note": "fai pulire le Grubby Pearl (grotte/zone sabbiose) a un Pokémon con Lucidatura/Scrub, es. Sharpedo"
+          },
+          {
+            "item": "Ocean Door",
+            "qty": 1,
+            "note": "ricetta reperibile in zona"
+          },
+          {
+            "item": "Seashell Fencing",
+            "qty": 1,
+            "note": "ricetta reperibile in zona"
+          }
+        ],
+        "steps": [
+          "Avvia la Important Request 'Build the Beautiful Building' da Popplio",
+          "Procurati Shiny Pearl (via Scrub), Ocean Door e Seashell Fencing",
+          "Convinci i 15 Pokémon indicati: alcuni richiedono mini-quest dedicate prima di aiutare",
+          "Lascia che la squadra costruisca l'edificio"
+        ],
+        "sources": [
+          {
+            "label": "Nintendo Life — Beautiful Building & Pokémon Center walkthrough",
+            "url": "https://www.nintendolife.com/guides/pokemon-pokopia-bubbly-basin-walkthrough-build-the-beautiful-building",
+            "type": "guida"
+          },
+          {
+            "label": "Game8 — Build the Beautiful Building walkthrough",
+            "url": "https://game8.co/games/Pokemon-Pokopia/archives/614463",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "basin-generators",
+        "name": "Generatori del Fondale: Furnace, Windmill, Waterwheel (DLC)",
+        "category": "edifici",
+        "description": "I tre kit generatore documentati per il Fondale Bolleblub, cuore del nuovo sistema di elettricità subacquea (alimenta sparabolle e lampioni con i Pokémon elettrici).",
+        "materials": [
+          {
+            "item": "Furnace: Iron Ore",
+            "qty": 15,
+            "note": "+ 5 Sea Glass Fragments"
+          },
+          {
+            "item": "Windmill: Lumber",
+            "qty": 5,
+            "note": "+ 5 Twine"
+          },
+          {
+            "item": "Waterwheel: Lumber",
+            "qty": 15,
+            "note": "+ 5 Rocks"
+          }
+        ],
+        "steps": null,
+        "sources": [
+          {
+            "label": "GameFAQs — Bubbly Basin building kit details (liste materiali)",
+            "url": "https://gamefaqs.gamespot.com/switch-2/665508-pokemon-pokopia-bubbly-basin/faqs/82556/building-kit-details",
+            "type": "guida"
+          },
+          {
+            "label": "Serebii — Bubbly Basin locations",
+            "url": "https://www.serebii.net/pokemonpokopia/locations/bubblybasin.shtml",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "submarine-kit",
+        "name": "Submarine Kit — l'edificio di Sharpedo (DLC)",
+        "category": "edifici",
+        "description": "Il sottomarino/edificio a tema Sharpedo del Fondale Bolleblub: si costruisce con Corphish in una sala con piscina della città sommersa, nell'ambito della storia del Beautiful Building. Corphish dà le informazioni su Sharpedo, Mareanie quelle su Cloyster.",
+        "materials": null,
+        "steps": null,
+        "sources": [
+          {
+            "label": "GameRant — Help Corphish build the Sharpedo Building",
+            "url": "https://gamerant.com/pokopia-sharpedo-building-kit-location/",
+            "type": "guida"
+          },
+          {
+            "label": "GamePretty — Bubbly Basin DLC guide (Sharpedo)",
+            "url": "https://gamepretty.com/pokemon-pokopia-bubbly-basin-dlc-guide-dive-area-gate-sharpedo-habitat-construction-key-quests-new-pokemon-and-ect/",
+            "type": "guida"
+          }
+        ],
+        "verified": false
+      },
+      {
+        "id": "portal-pod",
+        "name": "Portal Pod: deposito collegato tra le regioni",
+        "category": "trasporti",
+        "description": "Lo 'zaino interdimensionale' arrivato gratis col DLC: 140 stack di oggetti accessibili da QUALSIASI Portal Pod, in stile Ender Chest. Quello che depositi in un pod lo ritiri da ogni altro pod, in qualunque regione — la vera soluzione alla logistica dei materiali.",
+        "materials": null,
+        "steps": [
+          "Recupera la ricetta del Portal Pod (vedi guida GamesRadar)",
+          "Crafta un pod e piazzane uno in ogni regione in cui lavori",
+          "Deposita i materiali in un pod qualsiasi: li ritrovi in tutti gli altri"
+        ],
+        "sources": [
+          {
+            "label": "GamesRadar — How to get the Portal Pod recipe",
+            "url": "https://www.gamesradar.com/games/pokemon/pokopia-portal-pod-recipe/",
+            "type": "guida"
+          },
+          {
+            "label": "TheGamer — Where to get more Portal Pods",
+            "url": "https://www.thegamer.com/pokemon-pokopia-bubbly-basin-portal-pod-location-build-use-guide/",
+            "type": "guida"
+          },
+          {
+            "label": "Destructoid — How to find and use Portal Pods",
+            "url": "https://www.destructoid.com/how-to-find-and-use-portal-pod-in-pokopia/",
             "type": "guida"
           }
         ],
@@ -2530,6 +2684,61 @@ window.POKOPIA = {
         ],
         "title": "Habitat Dex del Fondale: 36 habitat, 50 Pokémon",
         "detail": "Tutti esclusivi dell'area (nessuno spawn incrociato con l'isola): da Totodile a Golisopod, con i Buoyant Blocks per costruire in 3D."
+      },
+      {
+        "id": "db-16",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "loot"
+        ],
+        "prereqs": [
+          "db-11"
+        ],
+        "title": "Lucidatura (Scrub): trasforma le Grubby Pearl in Shiny Pearl",
+        "detail": "Raccogli le Grubby Pearl (grotte e zone sabbiose) e dalle a Sharpedo o a un altro Pokémon con la specialità esclusiva Lucidatura: le Shiny Pearl servono per gli edifici del Fondale."
+      },
+      {
+        "id": "db-17",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "build",
+          "quest"
+        ],
+        "prereqs": [
+          "db-16"
+        ],
+        "title": "Important Request: 'Build the Beautiful Building'",
+        "detail": "Kit di Popplio: Shiny Pearl + Ocean Door + Seashell Fencing, più 15 Pokémon aiutanti (alcuni con mini-quest dedicate, es. Totodile sul ponte a nord e la macchina sparabolle da attivare con Generate)."
+      },
+      {
+        "id": "db-18",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "build",
+          "quest"
+        ],
+        "prereqs": [
+          "db-06"
+        ],
+        "title": "Ricostruisci il Pokémon Center del Fondale",
+        "detail": "Insieme al Beautiful Building e all'Environment Level è uno degli obiettivi principali della città sommersa."
+      },
+      {
+        "id": "db-19",
+        "phase": "p6",
+        "area": "bubbly-basin",
+        "tags": [
+          "economia",
+          "build"
+        ],
+        "prereqs": [
+          "db-05"
+        ],
+        "title": "Crafta i Portal Pod e collega i depositi delle regioni",
+        "detail": "140 stack accessibili da qualsiasi pod (stile Ender Chest): piazzane uno in ogni regione in cui lavori e dimentica i viaggi per i materiali."
       }
     ]
   },

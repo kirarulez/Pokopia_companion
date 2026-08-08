@@ -38,7 +38,7 @@
     {
       "id": "bleak-beach",
       "name": "Bleak Beach",
-      "nameIt": "Spiaggia Cupa",
+      "nameIt": "Costa Uggiolina",
       "kantoBase": "Rovine di Vermilion City (porto, spiaggia e faro al buio)",
       "unlock": { "rank": "Great", "note": "Si sblocca completando la main quest della Withered Wasteland" },
       "mainQuest": {
@@ -140,9 +140,11 @@
         "title": "Riporta in vita la città sommersa con Popplio e Corsola",
         "requirements": [
           "Impara Surf da Lapras: compare con la richiesta di Piplup attiva e chiede di ripulire 80 tile di fango",
-          "Impara Dive da Manaphy: isola a nord-ovest indicata da Tangrowth, portagli 5 Seaweed",
+          "Impara Sub (Dive) da Manaphy: dopo la richiesta 'Aumenta il livello di vivibilità generale!' alla Costa Uggiolina, Tangrowth indica un'isola a nord-ovest — portagli 5 Seaweed",
           "Parla con Popplio al Pokémon Center di Bleak Beach e apri il cancello sottomarino a ovest",
           "Completa la catena di richieste di Corsola (bolle di Mudkip → angurie con Corphish → Carvanha)",
+          "Important Request di Popplio: 'Build the Beautiful Building' (Shiny Pearl + Ocean Door + Seashell Fencing + 15 Pokémon aiutanti)",
+          "Ricostruisci il Pokémon Center del Fondale",
           "Porta il Fondale a Environment Level 3 e avvia la richiesta del Sea Temple (Tempio del Mare)"
         ],
         "reward": "36 nuovi habitat, 50 nuovi Pokémon esclusivi, blocchi galleggianti, arredi e costumi marini"
@@ -154,7 +156,8 @@
         { "name": "Mudkip", "role": "Spara bolle (cura piante e angurie) — sblocca il Frullatore con la quest 'Smoothie Making'" },
         { "name": "Corphish", "role": "Avvia la coltivazione delle angurie" },
         { "name": "Carvanha", "role": "Taglia le angurie a fette — attirato dall'habitat con alghe e Netting" },
-        { "name": "Sharpedo", "role": "Attirato dal Chimney Rocks Dig Site (materiali nella piazza della città)" }
+        { "name": "Sharpedo", "role": "Attirato dal Chimney Rocks Dig Site — ha la specialità esclusiva Lucidatura (Scrub): pulisce le Grubby Pearl" },
+        { "name": "Totodile", "role": "Sul ponte a nord: dopo qualche gioco al parco aiuta per il Beautiful Building (serve un Pokémon con specialità Generate per la macchina sparabolle)" }
       ],
       "loot": [
         { "item": "Seabed Tall Grass (Erba Alta del Fondale)", "where": "Fondali dell'area", "method": "Raccolta — il materiale più riusato dagli habitat del DLC", "verified": false },
@@ -165,14 +168,17 @@
         { "item": "Watermelon (Anguria)", "where": "Coltivazione con Corphish + bolle di Mudkip", "method": "Farming — Carvanha le taglia a fette per la cucina", "verified": true },
         { "item": "Buoyant Blocks (Blocchi Galleggianti)", "where": "Materiale da costruzione esclusivo del DLC", "method": "Crafting/progressione — fluttuano a quote diverse per costruzioni 3D subacquee", "verified": true },
         { "item": "Bottled Ship (Veliero in Bottiglia)", "where": "Da trovare/craftare", "method": "Serve per più habitat del DLC", "verified": false },
-        { "item": "Decorative Poké Balls (Great/Heal/Dive/Net)", "where": "Da trovare/craftare nell'area", "method": "Servono per il Mermaid's Gym (Starmie)", "verified": false }
+        { "item": "Decorative Poké Balls (Great/Heal/Dive/Net)", "where": "Da trovare/craftare nell'area", "method": "Servono per il Mermaid's Gym (Starmie)", "verified": false },
+        { "item": "Grubby Pearl (Perla Sporca)", "where": "Soprattutto nelle grotte, a volte in zone sabbiose", "method": "Raccolta — dalle a un Pokémon con Lucidatura (Scrub, es. Sharpedo) per ottenere Shiny Pearl", "verified": false },
+        { "item": "Sea Glass Fragments (Frammenti di Vetro di Mare)", "where": "Fondali dell'area", "method": "Raccolta — servono per la Furnace del Fondale (15 Iron Ore + 5 frammenti)", "verified": false }
       ],
       "tips": [
         "Prima di entrare conviene chiudere la main quest di Bleak Beach: la catena Lapras→Manaphy si aggancia a quelle richieste.",
         "Nuovo sistema di elettricità subacquea e macchine sparabolle per pulire il fango: cerca i Pokémon con le specialità giuste.",
         "Gli smoothie (base 2 fette di anguria) potenziano Surf e Dive: sblocca presto il Frullatore con Mudkip.",
         "Con i Buoyant Blocks puoi costruire strutture sospese a diverse altezze: sfrutta la terza dimensione.",
-        "La 2.0.0 aggiunge il deposito condiviso tra le città (140 slot): piazza un contenitore anche qui."
+        "Il deposito condiviso funziona tramite i Portal Pod (arrivati gratis col DLC): quello che metti in un pod si ritira da qualsiasi altro pod, in ogni regione.",
+        "Col Pass di espansione ricevi anche i progetti per blocchi e rotoli con motivo a tutto Ditto, più costumi inediti per Ditto."
       ]
     },
     {
